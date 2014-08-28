@@ -1493,7 +1493,7 @@
 								<Field xsi:type="esri:Field">
 									<Name>LOCATION</Name>
 									<Type>esriFieldTypeString</Type>
-									<IsNullable>false</IsNullable>
+									<IsNullable>true</IsNullable>
 									<Length>10</Length>
 									<Precision>0</Precision>
 									<Scale>0</Scale>
@@ -2012,7 +2012,7 @@
 								<Field xsi:type="esri:Field">
 									<Name>LOCATION</Name>
 									<Type>esriFieldTypeString</Type>
-									<IsNullable>false</IsNullable>
+									<IsNullable>true</IsNullable>
 									<Length>10</Length>
 									<Precision>0</Precision>
 									<Scale>0</Scale>
@@ -3088,7 +3088,7 @@
 								<Field xsi:type="esri:Field">
 									<Name>CALCROT</Name>
 									<Type>esriFieldTypeDouble</Type>
-									<IsNullable>false</IsNullable>
+									<IsNullable>true</IsNullable>
 									<Length>8</Length>
 									<Precision>0</Precision>
 									<Scale>0</Scale>
@@ -3098,7 +3098,7 @@
 								<Field xsi:type="esri:Field">
 									<Name>NUMFLOORS</Name>
 									<Type>esriFieldTypeInteger</Type>
-									<IsNullable>false</IsNullable>
+									<IsNullable>true</IsNullable>
 									<Length>4</Length>
 									<Precision>0</Precision>
 									<Scale>0</Scale>
@@ -3410,7 +3410,7 @@
 								<Field xsi:type="esri:Field">
 									<Name>CALCROT</Name>
 									<Type>esriFieldTypeDouble</Type>
-									<IsNullable>false</IsNullable>
+									<IsNullable>true</IsNullable>
 									<Length>8</Length>
 									<Precision>0</Precision>
 									<Scale>0</Scale>
@@ -3420,7 +3420,7 @@
 								<Field xsi:type="esri:Field">
 									<Name>WORLDFILE</Name>
 									<Type>esriFieldTypeString</Type>
-									<IsNullable>false</IsNullable>
+									<IsNullable>true</IsNullable>
 									<Length>255</Length>
 									<Precision>0</Precision>
 									<Scale>0</Scale>
@@ -3669,7 +3669,7 @@
 								<Field xsi:type="esri:Field">
 									<Name>CALCROT</Name>
 									<Type>esriFieldTypeDouble</Type>
-									<IsNullable>false</IsNullable>
+									<IsNullable>true</IsNullable>
 									<Length>8</Length>
 									<Precision>0</Precision>
 									<Scale>0</Scale>
@@ -3679,7 +3679,7 @@
 								<Field xsi:type="esri:Field">
 									<Name>NUMFLOORS</Name>
 									<Type>esriFieldTypeInteger</Type>
-									<IsNullable>false</IsNullable>
+									<IsNullable>true</IsNullable>
 									<Length>4</Length>
 									<Precision>0</Precision>
 									<Scale>0</Scale>
@@ -4548,7 +4548,7 @@
 								<Field xsi:type="esri:Field">
 									<Name>IN_DATE</Name>
 									<Type>esriFieldTypeDate</Type>
-									<IsNullable>false</IsNullable>
+									<IsNullable>true</IsNullable>
 									<Length>8</Length>
 									<Precision>0</Precision>
 									<Scale>0</Scale>
@@ -4740,7 +4740,7 @@
 								<Field xsi:type="esri:Field">
 									<Name>IN_DATE</Name>
 									<Type>esriFieldTypeDate</Type>
-									<IsNullable>false</IsNullable>
+									<IsNullable>true</IsNullable>
 									<Length>8</Length>
 									<Precision>0</Precision>
 									<Scale>0</Scale>
@@ -6134,7 +6134,7 @@
 						<Field xsi:type="esri:Field">
 							<Name>CALCROT</Name>
 							<Type>esriFieldTypeDouble</Type>
-							<IsNullable>false</IsNullable>
+							<IsNullable>true</IsNullable>
 							<Length>8</Length>
 							<Precision>0</Precision>
 							<Scale>0</Scale>
@@ -6893,281 +6893,6 @@
 				<DatasetType>esriDTFeatureDataset</DatasetType>
 				<Children xsi:type="esri:ArrayOfDataElement">
 					<DataElement xsi:type="esri:DEFeatureClass">
-						<CatalogPath>/FD=Floorplan/FC=Floor_Zone</CatalogPath>
-						<Name>Floor_Zone</Name>
-						<DatasetType>esriDTFeatureClass</DatasetType>
-						<MetadataRetrieved>true</MetadataRetrieved>
-						<Metadata xsi:type="esri:XmlPropertySet">
-							<XmlDoc>&lt;metadata xml:lang=&quot;en&quot;&gt;&lt;Esri&gt;&lt;MetaID&gt;&lt;/MetaID&gt;&lt;SyncOnce&gt;TRUE&lt;/SyncOnce&gt;&lt;ArcGISFormat&gt;1.0&lt;/ArcGISFormat&gt;&lt;/Esri&gt;&lt;idinfo&gt;&lt;descript&gt;&lt;abstract&gt;Floor Zone polygons can be used to represent portions of floors such as security zones and leases&lt;/abstract&gt;&lt;purpose&gt;Floor Zones&lt;/purpose&gt;&lt;/descript&gt;&lt;keywords&gt;&lt;theme&gt;&lt;themekt&gt;X-Ray&lt;/themekt&gt;&lt;themekey&gt;&lt;/themekey&gt;&lt;/theme&gt;&lt;/keywords&gt;&lt;accconst&gt;&lt;/accconst&gt;&lt;useconst&gt;&lt;/useconst&gt;&lt;status&gt;&lt;progress&gt;&lt;/progress&gt;&lt;update&gt;&lt;/update&gt;&lt;/status&gt;&lt;spdom&gt;&lt;bounding&gt;&lt;westbc&gt;NaN&lt;/westbc&gt;&lt;eastbc&gt;NaN&lt;/eastbc&gt;&lt;northbc&gt;NaN&lt;/northbc&gt;&lt;southbc&gt;NaN&lt;/southbc&gt;&lt;/bounding&gt;&lt;/spdom&gt;&lt;/idinfo&gt;&lt;eainfo&gt;&lt;detailed Name=&quot;&quot;&gt;&lt;attr&gt;&lt;attrlabl Sync=&quot;TRUE&quot;&gt;OBJECTID&lt;/attrlabl&gt;&lt;attalias Sync=&quot;TRUE&quot;&gt;OBJECTID&lt;/attalias&gt;&lt;attrtype Sync=&quot;TRUE&quot;&gt;OID&lt;/attrtype&gt;&lt;attwidth Sync=&quot;TRUE&quot;&gt;4&lt;/attwidth&gt;&lt;atprecis Sync=&quot;TRUE&quot;&gt;0&lt;/atprecis&gt;&lt;attscale Sync=&quot;TRUE&quot;&gt;0&lt;/attscale&gt;&lt;attrdef Sync=&quot;TRUE&quot;&gt;Internal feature number.&lt;/attrdef&gt;&lt;attrdefs Sync=&quot;TRUE&quot;&gt;Esri&lt;/attrdefs&gt;&lt;attrdomv&gt;&lt;udom Sync=&quot;TRUE&quot;&gt;Sequential unique whole numbers that are automatically generated.&lt;/udom&gt;&lt;/attrdomv&gt;&lt;/attr&gt;&lt;attr&gt;&lt;attrlabl Sync=&quot;TRUE&quot;&gt;SHAPE&lt;/attrlabl&gt;&lt;attalias Sync=&quot;TRUE&quot;&gt;SHAPE&lt;/attalias&gt;&lt;attrtype Sync=&quot;TRUE&quot;&gt;Geometry&lt;/attrtype&gt;&lt;attwidth Sync=&quot;TRUE&quot;&gt;0&lt;/attwidth&gt;&lt;atprecis Sync=&quot;TRUE&quot;&gt;0&lt;/atprecis&gt;&lt;attscale Sync=&quot;TRUE&quot;&gt;0&lt;/attscale&gt;&lt;attrdef Sync=&quot;TRUE&quot;&gt;Feature geometry.&lt;/attrdef&gt;&lt;attrdefs Sync=&quot;TRUE&quot;&gt;Esri&lt;/attrdefs&gt;&lt;attrdomv&gt;&lt;udom Sync=&quot;TRUE&quot;&gt;Coordinates defining the features.&lt;/udom&gt;&lt;/attrdomv&gt;&lt;/attr&gt;&lt;attr&gt;&lt;attrlabl Sync=&quot;TRUE&quot;&gt;BUILDINGID&lt;/attrlabl&gt;&lt;attalias Sync=&quot;TRUE&quot;&gt;Building ID&lt;/attalias&gt;&lt;attrtype Sync=&quot;TRUE&quot;&gt;String&lt;/attrtype&gt;&lt;attwidth Sync=&quot;TRUE&quot;&gt;60&lt;/attwidth&gt;&lt;atprecis Sync=&quot;TRUE&quot;&gt;0&lt;/atprecis&gt;&lt;attscale Sync=&quot;TRUE&quot;&gt;0&lt;/attscale&gt;&lt;attrdef Sync=&quot;TRUE&quot;&gt;Building ID&lt;/attrdef&gt;&lt;/attr&gt;&lt;attr&gt;&lt;attrlabl Sync=&quot;TRUE&quot;&gt;FLOOR&lt;/attrlabl&gt;&lt;attalias Sync=&quot;TRUE&quot;&gt;Floor&lt;/attalias&gt;&lt;attrtype Sync=&quot;TRUE&quot;&gt;String&lt;/attrtype&gt;&lt;attwidth Sync=&quot;TRUE&quot;&gt;20&lt;/attwidth&gt;&lt;atprecis Sync=&quot;TRUE&quot;&gt;0&lt;/atprecis&gt;&lt;attscale Sync=&quot;TRUE&quot;&gt;0&lt;/attscale&gt;&lt;attrdef Sync=&quot;TRUE&quot;&gt;Floor&lt;/attrdef&gt;&lt;/attr&gt;&lt;attr&gt;&lt;attrlabl Sync=&quot;TRUE&quot;&gt;FLOORID&lt;/attrlabl&gt;&lt;attalias Sync=&quot;TRUE&quot;&gt;Floor ID&lt;/attalias&gt;&lt;attrtype Sync=&quot;TRUE&quot;&gt;String&lt;/attrtype&gt;&lt;attwidth Sync=&quot;TRUE&quot;&gt;60&lt;/attwidth&gt;&lt;atprecis Sync=&quot;TRUE&quot;&gt;0&lt;/atprecis&gt;&lt;attscale Sync=&quot;TRUE&quot;&gt;0&lt;/attscale&gt;&lt;attrdef Sync=&quot;TRUE&quot;&gt;Floor ID&lt;/attrdef&gt;&lt;/attr&gt;&lt;attr&gt;&lt;attrlabl Sync=&quot;TRUE&quot;&gt;GlobalID&lt;/attrlabl&gt;&lt;attalias Sync=&quot;TRUE&quot;&gt;GlobalID&lt;/attalias&gt;&lt;attrtype Sync=&quot;TRUE&quot;&gt;GlobalID&lt;/attrtype&gt;&lt;attwidth Sync=&quot;TRUE&quot;&gt;38&lt;/attwidth&gt;&lt;atprecis Sync=&quot;TRUE&quot;&gt;0&lt;/atprecis&gt;&lt;attscale Sync=&quot;TRUE&quot;&gt;0&lt;/attscale&gt;&lt;attrdef Sync=&quot;TRUE&quot;&gt;GlobalID&lt;/attrdef&gt;&lt;/attr&gt;&lt;attr&gt;&lt;attrlabl Sync=&quot;TRUE&quot;&gt;IN_DATE&lt;/attrlabl&gt;&lt;attalias Sync=&quot;TRUE&quot;&gt;Date loaded&lt;/attalias&gt;&lt;attrtype Sync=&quot;TRUE&quot;&gt;Date&lt;/attrtype&gt;&lt;attwidth Sync=&quot;TRUE&quot;&gt;8&lt;/attwidth&gt;&lt;atprecis Sync=&quot;TRUE&quot;&gt;0&lt;/atprecis&gt;&lt;attscale Sync=&quot;TRUE&quot;&gt;0&lt;/attscale&gt;&lt;attrdef Sync=&quot;TRUE&quot;&gt;Date loaded in database&lt;/attrdef&gt;&lt;/attr&gt;&lt;attr&gt;&lt;attrlabl Sync=&quot;TRUE&quot;&gt;LAST_USER&lt;/attrlabl&gt;&lt;attalias Sync=&quot;TRUE&quot;&gt;Last User&lt;/attalias&gt;&lt;attrtype Sync=&quot;TRUE&quot;&gt;String&lt;/attrtype&gt;&lt;attwidth Sync=&quot;TRUE&quot;&gt;50&lt;/attwidth&gt;&lt;atprecis Sync=&quot;TRUE&quot;&gt;0&lt;/atprecis&gt;&lt;attscale Sync=&quot;TRUE&quot;&gt;0&lt;/attscale&gt;&lt;attrdef Sync=&quot;TRUE&quot;&gt;Last User name&lt;/attrdef&gt;&lt;/attr&gt;&lt;attr&gt;&lt;attrlabl Sync=&quot;TRUE&quot;&gt;SENSITIVITY&lt;/attrlabl&gt;&lt;attalias Sync=&quot;TRUE&quot;&gt;Data Sensitivity&lt;/attalias&gt;&lt;attrtype Sync=&quot;TRUE&quot;&gt;String&lt;/attrtype&gt;&lt;attwidth Sync=&quot;TRUE&quot;&gt;20&lt;/attwidth&gt;&lt;atprecis Sync=&quot;TRUE&quot;&gt;0&lt;/atprecis&gt;&lt;attscale Sync=&quot;TRUE&quot;&gt;0&lt;/attscale&gt;&lt;attrdef Sync=&quot;TRUE&quot;&gt;Data Sensitivity&lt;/attrdef&gt;&lt;/attr&gt;&lt;attr&gt;&lt;attrlabl Sync=&quot;TRUE&quot;&gt;SITEID&lt;/attrlabl&gt;&lt;attalias Sync=&quot;TRUE&quot;&gt;Site ID&lt;/attalias&gt;&lt;attrtype Sync=&quot;TRUE&quot;&gt;String&lt;/attrtype&gt;&lt;attwidth Sync=&quot;TRUE&quot;&gt;60&lt;/attwidth&gt;&lt;atprecis Sync=&quot;TRUE&quot;&gt;0&lt;/atprecis&gt;&lt;attscale Sync=&quot;TRUE&quot;&gt;0&lt;/attscale&gt;&lt;attrdef Sync=&quot;TRUE&quot;&gt;Site Identifier&lt;/attrdef&gt;&lt;/attr&gt;&lt;attr&gt;&lt;attrlabl Sync=&quot;TRUE&quot;&gt;SOURCEDWG&lt;/attrlabl&gt;&lt;attalias Sync=&quot;TRUE&quot;&gt;Source Drawing&lt;/attalias&gt;&lt;attrtype Sync=&quot;TRUE&quot;&gt;String&lt;/attrtype&gt;&lt;attwidth Sync=&quot;TRUE&quot;&gt;60&lt;/attwidth&gt;&lt;atprecis Sync=&quot;TRUE&quot;&gt;0&lt;/atprecis&gt;&lt;attscale Sync=&quot;TRUE&quot;&gt;0&lt;/attscale&gt;&lt;attrdef Sync=&quot;TRUE&quot;&gt;Source Drawing&lt;/attrdef&gt;&lt;/attr&gt;&lt;attr&gt;&lt;attrlabl Sync=&quot;TRUE&quot;&gt;ZONEID&lt;/attrlabl&gt;&lt;attalias Sync=&quot;TRUE&quot;&gt;Schematic Elevation&lt;/attalias&gt;&lt;attrtype Sync=&quot;TRUE&quot;&gt;String&lt;/attrtype&gt;&lt;attwidth Sync=&quot;TRUE&quot;&gt;60&lt;/attwidth&gt;&lt;atprecis Sync=&quot;TRUE&quot;&gt;0&lt;/atprecis&gt;&lt;attscale Sync=&quot;TRUE&quot;&gt;0&lt;/attscale&gt;&lt;attrdef Sync=&quot;TRUE&quot;&gt;Schematic Elevation&lt;/attrdef&gt;&lt;/attr&gt;&lt;attr&gt;&lt;attrlabl Sync=&quot;TRUE&quot;&gt;ZONENAME&lt;/attrlabl&gt;&lt;attalias Sync=&quot;TRUE&quot;&gt;Zone Name&lt;/attalias&gt;&lt;attrtype Sync=&quot;TRUE&quot;&gt;String&lt;/attrtype&gt;&lt;attwidth Sync=&quot;TRUE&quot;&gt;100&lt;/attwidth&gt;&lt;atprecis Sync=&quot;TRUE&quot;&gt;0&lt;/atprecis&gt;&lt;attscale Sync=&quot;TRUE&quot;&gt;0&lt;/attscale&gt;&lt;attrdef Sync=&quot;TRUE&quot;&gt;Name of the Zone&lt;/attrdef&gt;&lt;/attr&gt;&lt;attr&gt;&lt;attrlabl Sync=&quot;TRUE&quot;&gt;ZONETYPE&lt;/attrlabl&gt;&lt;attalias Sync=&quot;TRUE&quot;&gt;Zone Type&lt;/attalias&gt;&lt;attrtype Sync=&quot;TRUE&quot;&gt;String&lt;/attrtype&gt;&lt;attwidth Sync=&quot;TRUE&quot;&gt;100&lt;/attwidth&gt;&lt;atprecis Sync=&quot;TRUE&quot;&gt;0&lt;/atprecis&gt;&lt;attscale Sync=&quot;TRUE&quot;&gt;0&lt;/attscale&gt;&lt;attrdef Sync=&quot;TRUE&quot;&gt;Type of Zone - organization-defined&lt;/attrdef&gt;&lt;/attr&gt;&lt;/detailed&gt;&lt;/eainfo&gt;&lt;/metadata&gt;</XmlDoc>
-						</Metadata>
-						<ShapeType>esriGeometryPolygon</ShapeType>
-						<LengthFieldName>SHAPE_LENGTH</LengthFieldName>
-						<AreaFieldName>SHAPE_AREA</AreaFieldName>
-						<FeatureType>esriFTSimple</FeatureType>
-						<AliasName>Floor Zones</AliasName>
-						<HasM>false</HasM>
-						<HasZ>false</HasZ>
-						<DSID>105</DSID>
-						<Fields xsi:type="esri:Fields">
-							<FieldArray xsi:type="esri:ArrayOfField">
-								<Field xsi:type="esri:Field">
-									<Name>OBJECTID</Name>
-									<Type>esriFieldTypeOID</Type>
-									<IsNullable>false</IsNullable>
-									<Length>4</Length>
-									<Precision>0</Precision>
-									<Scale>0</Scale>
-									<Required>true</Required>
-									<Editable>false</Editable>
-									<DomainFixed>true</DomainFixed>
-									<AliasName>OBJECTID</AliasName>
-									<ModelName>System-maintained ObjectID</ModelName>
-								</Field>
-								<Field xsi:type="esri:Field">
-									<Name>SHAPE</Name>
-									<Type>esriFieldTypeGeometry</Type>
-									<IsNullable>true</IsNullable>
-									<Length>0</Length>
-									<Precision>0</Precision>
-									<Scale>0</Scale>
-									<Required>true</Required>
-									<DomainFixed>true</DomainFixed>
-									<GeometryDef xsi:type="esri:GeometryDef">
-										<AvgNumPoints>0</AvgNumPoints>
-										<GeometryType>esriGeometryPolygon</GeometryType>
-										<HasM>false</HasM>
-										<HasZ>false</HasZ>
-										<!--Spatial Reference copied from SpatialReference.xml-->
-										<SpatialReference xsi:type="esri:ProjectedCoordinateSystem">
-											<WKT>PROJCS["WGS_1984_Web_Mercator_Auxiliary_Sphere",GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Mercator_Auxiliary_Sphere"],PARAMETER["False_Easting",0.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",0.0],PARAMETER["Standard_Parallel_1",0.0],PARAMETER["Auxiliary_Sphere_Type",0.0],UNIT["Meter",1.0],AUTHORITY["EPSG",3857]]</WKT>
-											<XOrigin>-20037700</XOrigin>
-											<YOrigin>-30241100</YOrigin>
-											<XYScale>10000</XYScale>
-											<ZOrigin>-100000</ZOrigin>
-											<ZScale>10000</ZScale>
-											<MOrigin>-100000</MOrigin>
-											<MScale>10000</MScale>
-											<XYTolerance>0.001</XYTolerance>
-											<ZTolerance>0.001</ZTolerance>
-											<MTolerance>0.001</MTolerance>
-											<HighPrecision>true</HighPrecision>
-											<WKID>3857</WKID>
-										</SpatialReference>
-										<GridSize0>0</GridSize0>
-									</GeometryDef>
-									<AliasName>SHAPE</AliasName>
-									<ModelName>System-maintained Geometry for a feature</ModelName>
-								</Field>
-								<Field xsi:type="esri:Field">
-									<Name>SITEID</Name>
-									<Type>esriFieldTypeString</Type>
-									<IsNullable>true</IsNullable>
-									<Length>60</Length>
-									<Precision>0</Precision>
-									<Scale>0</Scale>
-									<AliasName>Site ID</AliasName>
-								</Field>
-								<Field xsi:type="esri:Field">
-									<Name>BUILDINGID</Name>
-									<Type>esriFieldTypeString</Type>
-									<IsNullable>false</IsNullable>
-									<Length>60</Length>
-									<Precision>0</Precision>
-									<Scale>0</Scale>
-									<AliasName>Building ID</AliasName>
-								</Field>
-								<Field xsi:type="esri:Field">
-									<Name>FLOOR</Name>
-									<Type>esriFieldTypeString</Type>
-									<IsNullable>false</IsNullable>
-									<Length>20</Length>
-									<Precision>0</Precision>
-									<Scale>0</Scale>
-									<AliasName>Floor</AliasName>
-								</Field>
-								<Field xsi:type="esri:Field">
-									<Name>FLOORID</Name>
-									<Type>esriFieldTypeString</Type>
-									<IsNullable>true</IsNullable>
-									<Length>60</Length>
-									<Precision>0</Precision>
-									<Scale>0</Scale>
-									<AliasName>Floor ID</AliasName>
-								</Field>
-								<Field xsi:type="esri:Field">
-									<Name>ZONEID</Name>
-									<Type>esriFieldTypeString</Type>
-									<IsNullable>true</IsNullable>
-									<Length>60</Length>
-									<Precision>0</Precision>
-									<Scale>0</Scale>
-									<AliasName>Schematic Elevation</AliasName>
-								</Field>
-								<Field xsi:type="esri:Field">
-									<Name>ZONENAME</Name>
-									<Type>esriFieldTypeString</Type>
-									<IsNullable>true</IsNullable>
-									<Length>100</Length>
-									<Precision>0</Precision>
-									<Scale>0</Scale>
-									<AliasName>Zone Name</AliasName>
-								</Field>
-								<Field xsi:type="esri:Field">
-									<Name>ZONETYPE</Name>
-									<Type>esriFieldTypeString</Type>
-									<IsNullable>true</IsNullable>
-									<Length>100</Length>
-									<Precision>0</Precision>
-									<Scale>0</Scale>
-									<AliasName>Zone Type</AliasName>
-								</Field>
-								<Field xsi:type="esri:Field">
-									<Name>SENSITIVITY</Name>
-									<Type>esriFieldTypeString</Type>
-									<IsNullable>true</IsNullable>
-									<Length>20</Length>
-									<Precision>0</Precision>
-									<Scale>0</Scale>
-									<AliasName>Data Sensitivity</AliasName>
-									<!--Domain Name : Sensitivity-->
-									<Domain xsi:type="esri:CodedValueDomain">
-										<DomainName>Sensitivity</DomainName>
-										<FieldType>esriFieldTypeString</FieldType>
-										<MergePolicy>esriMPTDefaultValue</MergePolicy>
-										<SplitPolicy>esriSPTDuplicate</SplitPolicy>
-										<Description>Sensitivity of buildings, floors, and spaces for access and security needs</Description>
-										<CodedValues xsi:type="esri:ArrayOfCodedValue">
-											<CodedValue xsi:type="esri:CodedValue">
-												<Name>Public Access</Name>
-												<Code xsi:type="xs:string">Public Access</Code>
-											</CodedValue>
-											<CodedValue xsi:type="esri:CodedValue">
-												<Name>Employee Access</Name>
-												<Code xsi:type="xs:string">Employee Access</Code>
-											</CodedValue>
-											<CodedValue xsi:type="esri:CodedValue">
-												<Name>Restricted</Name>
-												<Code xsi:type="xs:string">Restricted</Code>
-											</CodedValue>
-											<CodedValue xsi:type="esri:CodedValue">
-												<Name>Secure</Name>
-												<Code xsi:type="xs:string">Secure</Code>
-											</CodedValue>
-											<CodedValue xsi:type="esri:CodedValue">
-												<Name>Hidden</Name>
-												<Code xsi:type="xs:string">Hidden</Code>
-											</CodedValue>
-											<CodedValue xsi:type="esri:CodedValue">
-												<Name>Other</Name>
-												<Code xsi:type="xs:string">Other</Code>
-											</CodedValue>
-											<CodedValue xsi:type="esri:CodedValue">
-												<Name>Unknown</Name>
-												<Code xsi:type="xs:string">Unknown</Code>
-											</CodedValue>
-										</CodedValues>
-									</Domain>
-								</Field>
-								<Field xsi:type="esri:Field">
-									<Name>IN_DATE</Name>
-									<Type>esriFieldTypeDate</Type>
-									<IsNullable>false</IsNullable>
-									<Length>8</Length>
-									<Precision>0</Precision>
-									<Scale>0</Scale>
-									<AliasName>Date loaded</AliasName>
-								</Field>
-								<Field xsi:type="esri:Field">
-									<Name>LAST_USER</Name>
-									<Type>esriFieldTypeString</Type>
-									<IsNullable>true</IsNullable>
-									<Length>50</Length>
-									<Precision>0</Precision>
-									<Scale>0</Scale>
-									<AliasName>Last User</AliasName>
-								</Field>
-								<Field xsi:type="esri:Field">
-									<Name>SOURCEDWG</Name>
-									<Type>esriFieldTypeString</Type>
-									<IsNullable>true</IsNullable>
-									<Length>60</Length>
-									<Precision>0</Precision>
-									<Scale>0</Scale>
-									<AliasName>Source Drawing</AliasName>
-								</Field>
-								<Field xsi:type="esri:Field">
-									<Name>GlobalID</Name>
-									<Type>esriFieldTypeGlobalID</Type>
-									<IsNullable>false</IsNullable>
-									<Length>38</Length>
-									<Precision>0</Precision>
-									<Scale>0</Scale>
-									<Required>true</Required>
-									<AliasName>GlobalID</AliasName>
-								</Field>
-							</FieldArray>
-						</Fields>
-						<ExtensionProperties xsi:type="esri:PropertySet">
-							<PropertyArray xsi:type="esri:ArrayOfPropertySetProperty"/>
-						</ExtensionProperties>
-						<Versioned>false</Versioned>
-						<CanVersion>false</CanVersion>
-						<HasOID>true</HasOID>
-						<OIDFieldName>OBJECTID</OIDFieldName>
-						<Indexes xsi:type="esri:Indexes">
-							<IndexArray xsi:type="esri:ArrayOfIndex"/>
-						</Indexes>
-						<RelationshipClassNames xsi:type="esri:Names"/>
-						<ModelName/>
-						<HasGlobalID>false</HasGlobalID>
-						<GlobalIDFieldName/>
-						<RasterFieldName/>
-						<ShapeFieldName>SHAPE</ShapeFieldName>
-						<HasSpatialIndex>true</HasSpatialIndex>
-						<CLSID>{52353152-891A-11D0-BEC6-00805F7C4268}</CLSID>
-						<EXTCLSID></EXTCLSID>
-						<Extent xsi:type="esri:EnvelopeN">
-							<!--Extent copied from SpatialReference.xml-->
-							<!--You can change the spatial reference/extent values by editing that file in your GDB XRay/xslt Directory-->
-							<XMin>NaN</XMin>
-							<YMin>NaN</YMin>
-							<XMax>NaN</XMax>
-							<YMax>NaN</YMax>
-							<!--Spatial Reference copied from SpatialReference.xml-->
-							<SpatialReference xsi:type="esri:ProjectedCoordinateSystem">
-								<WKT>PROJCS["WGS_1984_Web_Mercator_Auxiliary_Sphere",GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Mercator_Auxiliary_Sphere"],PARAMETER["False_Easting",0.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",0.0],PARAMETER["Standard_Parallel_1",0.0],PARAMETER["Auxiliary_Sphere_Type",0.0],UNIT["Meter",1.0],AUTHORITY["EPSG",3857]]</WKT>
-								<XOrigin>-20037700</XOrigin>
-								<YOrigin>-30241100</YOrigin>
-								<XYScale>10000</XYScale>
-								<ZOrigin>-100000</ZOrigin>
-								<ZScale>10000</ZScale>
-								<MOrigin>-100000</MOrigin>
-								<MScale>10000</MScale>
-								<XYTolerance>0.001</XYTolerance>
-								<ZTolerance>0.001</ZTolerance>
-								<MTolerance>0.001</MTolerance>
-								<HighPrecision>true</HighPrecision>
-								<WKID>3857</WKID>
-							</SpatialReference>
-						</Extent>
-						<!--Spatial Reference copied from SpatialReference.xml-->
-						<SpatialReference xsi:type="esri:ProjectedCoordinateSystem">
-							<WKT>PROJCS["WGS_1984_Web_Mercator_Auxiliary_Sphere",GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Mercator_Auxiliary_Sphere"],PARAMETER["False_Easting",0.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",0.0],PARAMETER["Standard_Parallel_1",0.0],PARAMETER["Auxiliary_Sphere_Type",0.0],UNIT["Meter",1.0],AUTHORITY["EPSG",3857]]</WKT>
-							<XOrigin>-20037700</XOrigin>
-							<YOrigin>-30241100</YOrigin>
-							<XYScale>10000</XYScale>
-							<ZOrigin>-100000</ZOrigin>
-							<ZScale>10000</ZScale>
-							<MOrigin>-100000</MOrigin>
-							<MScale>10000</MScale>
-							<XYTolerance>0.001</XYTolerance>
-							<ZTolerance>0.001</ZTolerance>
-							<MTolerance>0.001</MTolerance>
-							<HighPrecision>true</HighPrecision>
-							<WKID>3857</WKID>
-						</SpatialReference>
-					</DataElement>
-					<DataElement xsi:type="esri:DEFeatureClass">
 						<CatalogPath>/FD=Floorplan/FC=Floor_Area</CatalogPath>
 						<Name>Floor_Area</Name>
 						<DatasetType>esriDTFeatureClass</DatasetType>
@@ -7383,7 +7108,7 @@
 								<Field xsi:type="esri:Field">
 									<Name>FLOOR_NAME</Name>
 									<Type>esriFieldTypeString</Type>
-									<IsNullable>false</IsNullable>
+									<IsNullable>true</IsNullable>
 									<Length>60</Length>
 									<Precision>0</Precision>
 									<Scale>0</Scale>
@@ -7393,7 +7118,7 @@
 								<Field xsi:type="esri:Field">
 									<Name>BLDG_NAME</Name>
 									<Type>esriFieldTypeString</Type>
-									<IsNullable>false</IsNullable>
+									<IsNullable>true</IsNullable>
 									<Length>60</Length>
 									<Precision>0</Precision>
 									<Scale>0</Scale>
@@ -7468,7 +7193,7 @@
 						<DatasetType>esriDTFeatureClass</DatasetType>
 						<MetadataRetrieved>true</MetadataRetrieved>
 						<Metadata xsi:type="esri:XmlPropertySet">
-							<XmlDoc>&lt;metadata xml:lang=&quot;en&quot;&gt;&lt;Esri&gt;&lt;MetaID&gt;&lt;/MetaID&gt;&lt;SyncOnce&gt;TRUE&lt;/SyncOnce&gt;&lt;ArcGISFormat&gt;1.0&lt;/ArcGISFormat&gt;&lt;/Esri&gt;&lt;idinfo&gt;&lt;descript&gt;&lt;abstract&gt;A point inside the boundary of each floor, geometry should be the Building_Point XY&lt;/abstract&gt;&lt;purpose&gt;Floor Points&lt;/purpose&gt;&lt;/descript&gt;&lt;keywords&gt;&lt;theme&gt;&lt;themekt&gt;X-Ray&lt;/themekt&gt;&lt;themekey&gt;&lt;/themekey&gt;&lt;/theme&gt;&lt;/keywords&gt;&lt;accconst&gt;&lt;/accconst&gt;&lt;useconst&gt;&lt;/useconst&gt;&lt;status&gt;&lt;progress&gt;&lt;/progress&gt;&lt;update&gt;&lt;/update&gt;&lt;/status&gt;&lt;spdom&gt;&lt;bounding&gt;&lt;westbc&gt;NaN&lt;/westbc&gt;&lt;eastbc&gt;NaN&lt;/eastbc&gt;&lt;northbc&gt;NaN&lt;/northbc&gt;&lt;southbc&gt;NaN&lt;/southbc&gt;&lt;/bounding&gt;&lt;/spdom&gt;&lt;/idinfo&gt;&lt;eainfo&gt;&lt;detailed Name=&quot;&quot;&gt;&lt;attr&gt;&lt;attrlabl Sync=&quot;TRUE&quot;&gt;OBJECTID&lt;/attrlabl&gt;&lt;attalias Sync=&quot;TRUE&quot;&gt;OBJECTID&lt;/attalias&gt;&lt;attrtype Sync=&quot;TRUE&quot;&gt;OID&lt;/attrtype&gt;&lt;attwidth Sync=&quot;TRUE&quot;&gt;4&lt;/attwidth&gt;&lt;atprecis Sync=&quot;TRUE&quot;&gt;0&lt;/atprecis&gt;&lt;attscale Sync=&quot;TRUE&quot;&gt;0&lt;/attscale&gt;&lt;attrdef Sync=&quot;TRUE&quot;&gt;Internal feature number.&lt;/attrdef&gt;&lt;attrdefs Sync=&quot;TRUE&quot;&gt;Esri&lt;/attrdefs&gt;&lt;attrdomv&gt;&lt;udom Sync=&quot;TRUE&quot;&gt;Sequential unique whole numbers that are automatically generated.&lt;/udom&gt;&lt;/attrdomv&gt;&lt;/attr&gt;&lt;attr&gt;&lt;attrlabl Sync=&quot;TRUE&quot;&gt;SHAPE&lt;/attrlabl&gt;&lt;attalias Sync=&quot;TRUE&quot;&gt;SHAPE&lt;/attalias&gt;&lt;attrtype Sync=&quot;TRUE&quot;&gt;Geometry&lt;/attrtype&gt;&lt;attwidth Sync=&quot;TRUE&quot;&gt;0&lt;/attwidth&gt;&lt;atprecis Sync=&quot;TRUE&quot;&gt;0&lt;/atprecis&gt;&lt;attscale Sync=&quot;TRUE&quot;&gt;0&lt;/attscale&gt;&lt;attrdef Sync=&quot;TRUE&quot;&gt;Feature geometry.&lt;/attrdef&gt;&lt;attrdefs Sync=&quot;TRUE&quot;&gt;Esri&lt;/attrdefs&gt;&lt;attrdomv&gt;&lt;udom Sync=&quot;TRUE&quot;&gt;Coordinates defining the features.&lt;/udom&gt;&lt;/attrdomv&gt;&lt;/attr&gt;&lt;attr&gt;&lt;attrlabl Sync=&quot;TRUE&quot;&gt;BLDG_NAME&lt;/attrlabl&gt;&lt;attalias Sync=&quot;TRUE&quot;&gt;Building Name&lt;/attalias&gt;&lt;attrtype Sync=&quot;TRUE&quot;&gt;String&lt;/attrtype&gt;&lt;attwidth Sync=&quot;TRUE&quot;&gt;60&lt;/attwidth&gt;&lt;atprecis Sync=&quot;TRUE&quot;&gt;0&lt;/atprecis&gt;&lt;attscale Sync=&quot;TRUE&quot;&gt;0&lt;/attscale&gt;&lt;attrdef Sync=&quot;TRUE&quot;&gt;Building Name - optional for feature class&lt;/attrdef&gt;&lt;/attr&gt;&lt;attr&gt;&lt;attrlabl Sync=&quot;TRUE&quot;&gt;BUILDINGID&lt;/attrlabl&gt;&lt;attalias Sync=&quot;TRUE&quot;&gt;Building ID&lt;/attalias&gt;&lt;attrtype Sync=&quot;TRUE&quot;&gt;String&lt;/attrtype&gt;&lt;attwidth Sync=&quot;TRUE&quot;&gt;60&lt;/attwidth&gt;&lt;atprecis Sync=&quot;TRUE&quot;&gt;0&lt;/atprecis&gt;&lt;attscale Sync=&quot;TRUE&quot;&gt;0&lt;/attscale&gt;&lt;attrdef Sync=&quot;TRUE&quot;&gt;Building ID&lt;/attrdef&gt;&lt;/attr&gt;&lt;attr&gt;&lt;attrlabl Sync=&quot;TRUE&quot;&gt;CALCROT&lt;/attrlabl&gt;&lt;attalias Sync=&quot;TRUE&quot;&gt;Calculated Rotation&lt;/attalias&gt;&lt;attrtype Sync=&quot;TRUE&quot;&gt;Double&lt;/attrtype&gt;&lt;attwidth Sync=&quot;TRUE&quot;&gt;8&lt;/attwidth&gt;&lt;atprecis Sync=&quot;TRUE&quot;&gt;0&lt;/atprecis&gt;&lt;attscale Sync=&quot;TRUE&quot;&gt;0&lt;/attscale&gt;&lt;attrdef Sync=&quot;TRUE&quot;&gt;Calculated Rotation (from world file for building)&lt;/attrdef&gt;&lt;/attr&gt;&lt;attr&gt;&lt;attrlabl Sync=&quot;TRUE&quot;&gt;FACILITY_CODE&lt;/attrlabl&gt;&lt;attalias Sync=&quot;TRUE&quot;&gt;Facility Code&lt;/attalias&gt;&lt;attrtype Sync=&quot;TRUE&quot;&gt;String&lt;/attrtype&gt;&lt;attwidth Sync=&quot;TRUE&quot;&gt;254&lt;/attwidth&gt;&lt;atprecis Sync=&quot;TRUE&quot;&gt;0&lt;/atprecis&gt;&lt;attscale Sync=&quot;TRUE&quot;&gt;0&lt;/attscale&gt;&lt;attrdef Sync=&quot;TRUE&quot;&gt;Facility Code&lt;/attrdef&gt;&lt;/attr&gt;&lt;attr&gt;&lt;attrlabl Sync=&quot;TRUE&quot;&gt;FACLEVEL&lt;/attrlabl&gt;&lt;attalias Sync=&quot;TRUE&quot;&gt;FacLevel&lt;/attalias&gt;&lt;attrtype Sync=&quot;TRUE&quot;&gt;String&lt;/attrtype&gt;&lt;attwidth Sync=&quot;TRUE&quot;&gt;14&lt;/attwidth&gt;&lt;atprecis Sync=&quot;TRUE&quot;&gt;0&lt;/atprecis&gt;&lt;attscale Sync=&quot;TRUE&quot;&gt;0&lt;/attscale&gt;&lt;attrdef Sync=&quot;TRUE&quot;&gt;FacLevel&lt;/attrdef&gt;&lt;/attr&gt;&lt;attr&gt;&lt;attrlabl Sync=&quot;TRUE&quot;&gt;FLOOR&lt;/attrlabl&gt;&lt;attalias Sync=&quot;TRUE&quot;&gt;Floor&lt;/attalias&gt;&lt;attrtype Sync=&quot;TRUE&quot;&gt;String&lt;/attrtype&gt;&lt;attwidth Sync=&quot;TRUE&quot;&gt;20&lt;/attwidth&gt;&lt;atprecis Sync=&quot;TRUE&quot;&gt;0&lt;/atprecis&gt;&lt;attscale Sync=&quot;TRUE&quot;&gt;0&lt;/attscale&gt;&lt;attrdef Sync=&quot;TRUE&quot;&gt;Floor&lt;/attrdef&gt;&lt;/attr&gt;&lt;attr&gt;&lt;attrlabl Sync=&quot;TRUE&quot;&gt;FLOOR_LEVEL&lt;/attrlabl&gt;&lt;attalias Sync=&quot;TRUE&quot;&gt;Floor Level&lt;/attalias&gt;&lt;attrtype Sync=&quot;TRUE&quot;&gt;Integer&lt;/attrtype&gt;&lt;attwidth Sync=&quot;TRUE&quot;&gt;4&lt;/attwidth&gt;&lt;atprecis Sync=&quot;TRUE&quot;&gt;0&lt;/atprecis&gt;&lt;attscale Sync=&quot;TRUE&quot;&gt;0&lt;/attscale&gt;&lt;attrdef Sync=&quot;TRUE&quot;&gt;Floor Level&lt;/attrdef&gt;&lt;/attr&gt;&lt;attr&gt;&lt;attrlabl Sync=&quot;TRUE&quot;&gt;FLOOR_NAME&lt;/attrlabl&gt;&lt;attalias Sync=&quot;TRUE&quot;&gt;Floor Name&lt;/attalias&gt;&lt;attrtype Sync=&quot;TRUE&quot;&gt;String&lt;/attrtype&gt;&lt;attwidth Sync=&quot;TRUE&quot;&gt;254&lt;/attwidth&gt;&lt;atprecis Sync=&quot;TRUE&quot;&gt;0&lt;/atprecis&gt;&lt;attscale Sync=&quot;TRUE&quot;&gt;0&lt;/attscale&gt;&lt;attrdef Sync=&quot;TRUE&quot;&gt;Floor NameFloor Name - oprional for feature class&lt;/attrdef&gt;&lt;/attr&gt;&lt;attr&gt;&lt;attrlabl Sync=&quot;TRUE&quot;&gt;FLOOR_NAME&lt;/attrlabl&gt;&lt;attalias Sync=&quot;TRUE&quot;&gt;Floor Name&lt;/attalias&gt;&lt;attrtype Sync=&quot;TRUE&quot;&gt;String&lt;/attrtype&gt;&lt;attwidth Sync=&quot;TRUE&quot;&gt;60&lt;/attwidth&gt;&lt;atprecis Sync=&quot;TRUE&quot;&gt;0&lt;/atprecis&gt;&lt;attscale Sync=&quot;TRUE&quot;&gt;0&lt;/attscale&gt;&lt;attrdef Sync=&quot;TRUE&quot;&gt;Floor NameFloor Name - oprional for feature class&lt;/attrdef&gt;&lt;/attr&gt;&lt;attr&gt;&lt;attrlabl Sync=&quot;TRUE&quot;&gt;FLOORID&lt;/attrlabl&gt;&lt;attalias Sync=&quot;TRUE&quot;&gt;Floor ID&lt;/attalias&gt;&lt;attrtype Sync=&quot;TRUE&quot;&gt;String&lt;/attrtype&gt;&lt;attwidth Sync=&quot;TRUE&quot;&gt;60&lt;/attwidth&gt;&lt;atprecis Sync=&quot;TRUE&quot;&gt;0&lt;/atprecis&gt;&lt;attscale Sync=&quot;TRUE&quot;&gt;0&lt;/attscale&gt;&lt;attrdef Sync=&quot;TRUE&quot;&gt;Floor ID&lt;/attrdef&gt;&lt;/attr&gt;&lt;attr&gt;&lt;attrlabl Sync=&quot;TRUE&quot;&gt;GlobalID&lt;/attrlabl&gt;&lt;attalias Sync=&quot;TRUE&quot;&gt;GlobalID&lt;/attalias&gt;&lt;attrtype Sync=&quot;TRUE&quot;&gt;GlobalID&lt;/attrtype&gt;&lt;attwidth Sync=&quot;TRUE&quot;&gt;38&lt;/attwidth&gt;&lt;atprecis Sync=&quot;TRUE&quot;&gt;0&lt;/atprecis&gt;&lt;attscale Sync=&quot;TRUE&quot;&gt;0&lt;/attscale&gt;&lt;attrdef Sync=&quot;TRUE&quot;&gt;GlobalID&lt;/attrdef&gt;&lt;/attr&gt;&lt;attr&gt;&lt;attrlabl Sync=&quot;TRUE&quot;&gt;HASFLOORAREAS&lt;/attrlabl&gt;&lt;attalias Sync=&quot;TRUE&quot;&gt;Has Floor&lt;/attalias&gt;&lt;attrtype Sync=&quot;TRUE&quot;&gt;String&lt;/attrtype&gt;&lt;attwidth Sync=&quot;TRUE&quot;&gt;3&lt;/attwidth&gt;&lt;atprecis Sync=&quot;TRUE&quot;&gt;0&lt;/atprecis&gt;&lt;attscale Sync=&quot;TRUE&quot;&gt;0&lt;/attscale&gt;&lt;attrdef Sync=&quot;TRUE&quot;&gt;Has Floor&lt;/attrdef&gt;&lt;/attr&gt;&lt;attr&gt;&lt;attrlabl Sync=&quot;TRUE&quot;&gt;HASFLOORPLANLINES&lt;/attrlabl&gt;&lt;attalias Sync=&quot;TRUE&quot;&gt;Has FloorplanLines&lt;/attalias&gt;&lt;attrtype Sync=&quot;TRUE&quot;&gt;String&lt;/attrtype&gt;&lt;attwidth Sync=&quot;TRUE&quot;&gt;3&lt;/attwidth&gt;&lt;atprecis Sync=&quot;TRUE&quot;&gt;0&lt;/atprecis&gt;&lt;attscale Sync=&quot;TRUE&quot;&gt;0&lt;/attscale&gt;&lt;attrdef Sync=&quot;TRUE&quot;&gt;Has FloorplanLines&lt;/attrdef&gt;&lt;/attr&gt;&lt;attr&gt;&lt;attrlabl Sync=&quot;TRUE&quot;&gt;HASINTERIORSPACES&lt;/attrlabl&gt;&lt;attalias Sync=&quot;TRUE&quot;&gt;Has Interior Spaces&lt;/attalias&gt;&lt;attrtype Sync=&quot;TRUE&quot;&gt;String&lt;/attrtype&gt;&lt;attwidth Sync=&quot;TRUE&quot;&gt;3&lt;/attwidth&gt;&lt;atprecis Sync=&quot;TRUE&quot;&gt;0&lt;/atprecis&gt;&lt;attscale Sync=&quot;TRUE&quot;&gt;0&lt;/attscale&gt;&lt;attrdef Sync=&quot;TRUE&quot;&gt;Has Interior Spaces&lt;/attrdef&gt;&lt;/attr&gt;&lt;attr&gt;&lt;attrlabl Sync=&quot;TRUE&quot;&gt;IN_DATE&lt;/attrlabl&gt;&lt;attalias Sync=&quot;TRUE&quot;&gt;Date loaded&lt;/attalias&gt;&lt;attrtype Sync=&quot;TRUE&quot;&gt;Date&lt;/attrtype&gt;&lt;attwidth Sync=&quot;TRUE&quot;&gt;8&lt;/attwidth&gt;&lt;atprecis Sync=&quot;TRUE&quot;&gt;0&lt;/atprecis&gt;&lt;attscale Sync=&quot;TRUE&quot;&gt;0&lt;/attscale&gt;&lt;attrdef Sync=&quot;TRUE&quot;&gt;Date loaded in database&lt;/attrdef&gt;&lt;/attr&gt;&lt;attr&gt;&lt;attrlabl Sync=&quot;TRUE&quot;&gt;LAST_USER&lt;/attrlabl&gt;&lt;attalias Sync=&quot;TRUE&quot;&gt;Last User&lt;/attalias&gt;&lt;attrtype Sync=&quot;TRUE&quot;&gt;String&lt;/attrtype&gt;&lt;attwidth Sync=&quot;TRUE&quot;&gt;30&lt;/attwidth&gt;&lt;atprecis Sync=&quot;TRUE&quot;&gt;0&lt;/atprecis&gt;&lt;attscale Sync=&quot;TRUE&quot;&gt;0&lt;/attscale&gt;&lt;attrdef Sync=&quot;TRUE&quot;&gt;Last User name&lt;/attrdef&gt;&lt;/attr&gt;&lt;attr&gt;&lt;attrlabl Sync=&quot;TRUE&quot;&gt;MODLANDSCAPE&lt;/attrlabl&gt;&lt;attalias Sync=&quot;TRUE&quot;&gt;Mod Angle Landscape&lt;/attalias&gt;&lt;attrtype Sync=&quot;TRUE&quot;&gt;Double&lt;/attrtype&gt;&lt;attwidth Sync=&quot;TRUE&quot;&gt;8&lt;/attwidth&gt;&lt;atprecis Sync=&quot;TRUE&quot;&gt;0&lt;/atprecis&gt;&lt;attscale Sync=&quot;TRUE&quot;&gt;0&lt;/attscale&gt;&lt;attrdef Sync=&quot;TRUE&quot;&gt;Angle Modifier for Landscape viewing&lt;/attrdef&gt;&lt;/attr&gt;&lt;attr&gt;&lt;attrlabl Sync=&quot;TRUE&quot;&gt;MODPORTRAIT&lt;/attrlabl&gt;&lt;attalias Sync=&quot;TRUE&quot;&gt;Mod Angle Portrait&lt;/attalias&gt;&lt;attrtype Sync=&quot;TRUE&quot;&gt;Double&lt;/attrtype&gt;&lt;attwidth Sync=&quot;TRUE&quot;&gt;8&lt;/attwidth&gt;&lt;atprecis Sync=&quot;TRUE&quot;&gt;0&lt;/atprecis&gt;&lt;attscale Sync=&quot;TRUE&quot;&gt;0&lt;/attscale&gt;&lt;attrdef Sync=&quot;TRUE&quot;&gt;Angle Modifier for Potrait viewing&lt;/attrdef&gt;&lt;/attr&gt;&lt;attr&gt;&lt;attrlabl Sync=&quot;TRUE&quot;&gt;NAME&lt;/attrlabl&gt;&lt;attalias Sync=&quot;TRUE&quot;&gt;Name&lt;/attalias&gt;&lt;attrtype Sync=&quot;TRUE&quot;&gt;String&lt;/attrtype&gt;&lt;attwidth Sync=&quot;TRUE&quot;&gt;254&lt;/attwidth&gt;&lt;atprecis Sync=&quot;TRUE&quot;&gt;0&lt;/atprecis&gt;&lt;attscale Sync=&quot;TRUE&quot;&gt;0&lt;/attscale&gt;&lt;attrdef Sync=&quot;TRUE&quot;&gt;Name&lt;/attrdef&gt;&lt;/attr&gt;&lt;attr&gt;&lt;attrlabl Sync=&quot;TRUE&quot;&gt;NAME_LONG&lt;/attrlabl&gt;&lt;attalias Sync=&quot;TRUE&quot;&gt;Name Long&lt;/attalias&gt;&lt;attrtype Sync=&quot;TRUE&quot;&gt;String&lt;/attrtype&gt;&lt;attwidth Sync=&quot;TRUE&quot;&gt;255&lt;/attwidth&gt;&lt;atprecis Sync=&quot;TRUE&quot;&gt;0&lt;/atprecis&gt;&lt;attscale Sync=&quot;TRUE&quot;&gt;0&lt;/attscale&gt;&lt;attrdef Sync=&quot;TRUE&quot;&gt;Name Long&lt;/attrdef&gt;&lt;/attr&gt;&lt;attr&gt;&lt;attrlabl Sync=&quot;TRUE&quot;&gt;NAME_SHORT&lt;/attrlabl&gt;&lt;attalias Sync=&quot;TRUE&quot;&gt;Name Short&lt;/attalias&gt;&lt;attrtype Sync=&quot;TRUE&quot;&gt;String&lt;/attrtype&gt;&lt;attwidth Sync=&quot;TRUE&quot;&gt;255&lt;/attwidth&gt;&lt;atprecis Sync=&quot;TRUE&quot;&gt;0&lt;/atprecis&gt;&lt;attscale Sync=&quot;TRUE&quot;&gt;0&lt;/attscale&gt;&lt;attrdef Sync=&quot;TRUE&quot;&gt;Name Short&lt;/attrdef&gt;&lt;/attr&gt;&lt;attr&gt;&lt;attrlabl Sync=&quot;TRUE&quot;&gt;SCALE_11X17&lt;/attrlabl&gt;&lt;attalias Sync=&quot;TRUE&quot;&gt;Scale 11X17&lt;/attalias&gt;&lt;attrtype Sync=&quot;TRUE&quot;&gt;Double&lt;/attrtype&gt;&lt;attwidth Sync=&quot;TRUE&quot;&gt;8&lt;/attwidth&gt;&lt;atprecis Sync=&quot;TRUE&quot;&gt;0&lt;/atprecis&gt;&lt;attscale Sync=&quot;TRUE&quot;&gt;0&lt;/attscale&gt;&lt;attrdef Sync=&quot;TRUE&quot;&gt;Scale for 11 X 17 printing&lt;/attrdef&gt;&lt;/attr&gt;&lt;attr&gt;&lt;attrlabl Sync=&quot;TRUE&quot;&gt;SCALE_85X11&lt;/attrlabl&gt;&lt;attalias Sync=&quot;TRUE&quot;&gt;Scale 85X11&lt;/attalias&gt;&lt;attrtype Sync=&quot;TRUE&quot;&gt;Double&lt;/attrtype&gt;&lt;attwidth Sync=&quot;TRUE&quot;&gt;8&lt;/attwidth&gt;&lt;atprecis Sync=&quot;TRUE&quot;&gt;0&lt;/atprecis&gt;&lt;attscale Sync=&quot;TRUE&quot;&gt;0&lt;/attscale&gt;&lt;attrdef Sync=&quot;TRUE&quot;&gt;Scale for 8.5 X 11 printing&lt;/attrdef&gt;&lt;/attr&gt;&lt;attr&gt;&lt;attrlabl Sync=&quot;TRUE&quot;&gt;SENSITIVITY&lt;/attrlabl&gt;&lt;attalias Sync=&quot;TRUE&quot;&gt;Data Sensitivity&lt;/attalias&gt;&lt;attrtype Sync=&quot;TRUE&quot;&gt;String&lt;/attrtype&gt;&lt;attwidth Sync=&quot;TRUE&quot;&gt;20&lt;/attwidth&gt;&lt;atprecis Sync=&quot;TRUE&quot;&gt;0&lt;/atprecis&gt;&lt;attscale Sync=&quot;TRUE&quot;&gt;0&lt;/attscale&gt;&lt;attrdef Sync=&quot;TRUE&quot;&gt;Data Sensitivity&lt;/attrdef&gt;&lt;/attr&gt;&lt;attr&gt;&lt;attrlabl Sync=&quot;TRUE&quot;&gt;SITEID&lt;/attrlabl&gt;&lt;attalias Sync=&quot;TRUE&quot;&gt;Site ID&lt;/attalias&gt;&lt;attrtype Sync=&quot;TRUE&quot;&gt;String&lt;/attrtype&gt;&lt;attwidth Sync=&quot;TRUE&quot;&gt;60&lt;/attwidth&gt;&lt;atprecis Sync=&quot;TRUE&quot;&gt;0&lt;/atprecis&gt;&lt;attscale Sync=&quot;TRUE&quot;&gt;0&lt;/attscale&gt;&lt;attrdef Sync=&quot;TRUE&quot;&gt;Site Identifier&lt;/attrdef&gt;&lt;/attr&gt;&lt;attr&gt;&lt;attrlabl Sync=&quot;TRUE&quot;&gt;WEBMERCROT&lt;/attrlabl&gt;&lt;attalias Sync=&quot;TRUE&quot;&gt;Web Mercator Rotation&lt;/attalias&gt;&lt;attrtype Sync=&quot;TRUE&quot;&gt;Double&lt;/attrtype&gt;&lt;attwidth Sync=&quot;TRUE&quot;&gt;8&lt;/attwidth&gt;&lt;atprecis Sync=&quot;TRUE&quot;&gt;0&lt;/atprecis&gt;&lt;attscale Sync=&quot;TRUE&quot;&gt;0&lt;/attscale&gt;&lt;attrdef Sync=&quot;TRUE&quot;&gt;Web Mercator Rotation&lt;/attrdef&gt;&lt;/attr&gt;&lt;/detailed&gt;&lt;/eainfo&gt;&lt;/metadata&gt;</XmlDoc>
+							<XmlDoc>&lt;metadata xml:lang=&quot;en&quot;&gt;&lt;Esri&gt;&lt;MetaID&gt;&lt;/MetaID&gt;&lt;SyncOnce&gt;TRUE&lt;/SyncOnce&gt;&lt;ArcGISFormat&gt;1.0&lt;/ArcGISFormat&gt;&lt;/Esri&gt;&lt;idinfo&gt;&lt;descript&gt;&lt;abstract&gt;A point inside the boundary of each floor, geometry should be the Building_Point XY&lt;/abstract&gt;&lt;purpose&gt;Floor Points&lt;/purpose&gt;&lt;/descript&gt;&lt;keywords&gt;&lt;theme&gt;&lt;themekt&gt;X-Ray&lt;/themekt&gt;&lt;themekey&gt;&lt;/themekey&gt;&lt;/theme&gt;&lt;/keywords&gt;&lt;accconst&gt;&lt;/accconst&gt;&lt;useconst&gt;&lt;/useconst&gt;&lt;status&gt;&lt;progress&gt;&lt;/progress&gt;&lt;update&gt;&lt;/update&gt;&lt;/status&gt;&lt;spdom&gt;&lt;bounding&gt;&lt;westbc&gt;NaN&lt;/westbc&gt;&lt;eastbc&gt;NaN&lt;/eastbc&gt;&lt;northbc&gt;NaN&lt;/northbc&gt;&lt;southbc&gt;NaN&lt;/southbc&gt;&lt;/bounding&gt;&lt;/spdom&gt;&lt;/idinfo&gt;&lt;eainfo&gt;&lt;detailed Name=&quot;&quot;&gt;&lt;attr&gt;&lt;attrlabl Sync=&quot;TRUE&quot;&gt;OBJECTID&lt;/attrlabl&gt;&lt;attalias Sync=&quot;TRUE&quot;&gt;OBJECTID&lt;/attalias&gt;&lt;attrtype Sync=&quot;TRUE&quot;&gt;OID&lt;/attrtype&gt;&lt;attwidth Sync=&quot;TRUE&quot;&gt;4&lt;/attwidth&gt;&lt;atprecis Sync=&quot;TRUE&quot;&gt;0&lt;/atprecis&gt;&lt;attscale Sync=&quot;TRUE&quot;&gt;0&lt;/attscale&gt;&lt;attrdef Sync=&quot;TRUE&quot;&gt;Internal feature number.&lt;/attrdef&gt;&lt;attrdefs Sync=&quot;TRUE&quot;&gt;Esri&lt;/attrdefs&gt;&lt;attrdomv&gt;&lt;udom Sync=&quot;TRUE&quot;&gt;Sequential unique whole numbers that are automatically generated.&lt;/udom&gt;&lt;/attrdomv&gt;&lt;/attr&gt;&lt;attr&gt;&lt;attrlabl Sync=&quot;TRUE&quot;&gt;SHAPE&lt;/attrlabl&gt;&lt;attalias Sync=&quot;TRUE&quot;&gt;SHAPE&lt;/attalias&gt;&lt;attrtype Sync=&quot;TRUE&quot;&gt;Geometry&lt;/attrtype&gt;&lt;attwidth Sync=&quot;TRUE&quot;&gt;0&lt;/attwidth&gt;&lt;atprecis Sync=&quot;TRUE&quot;&gt;0&lt;/atprecis&gt;&lt;attscale Sync=&quot;TRUE&quot;&gt;0&lt;/attscale&gt;&lt;attrdef Sync=&quot;TRUE&quot;&gt;Feature geometry.&lt;/attrdef&gt;&lt;attrdefs Sync=&quot;TRUE&quot;&gt;Esri&lt;/attrdefs&gt;&lt;attrdomv&gt;&lt;udom Sync=&quot;TRUE&quot;&gt;Coordinates defining the features.&lt;/udom&gt;&lt;/attrdomv&gt;&lt;/attr&gt;&lt;attr&gt;&lt;attrlabl Sync=&quot;TRUE&quot;&gt;BLDG_NAME&lt;/attrlabl&gt;&lt;attalias Sync=&quot;TRUE&quot;&gt;Building Name&lt;/attalias&gt;&lt;attrtype Sync=&quot;TRUE&quot;&gt;String&lt;/attrtype&gt;&lt;attwidth Sync=&quot;TRUE&quot;&gt;60&lt;/attwidth&gt;&lt;atprecis Sync=&quot;TRUE&quot;&gt;0&lt;/atprecis&gt;&lt;attscale Sync=&quot;TRUE&quot;&gt;0&lt;/attscale&gt;&lt;attrdef Sync=&quot;TRUE&quot;&gt;Building Name - optional for feature class&lt;/attrdef&gt;&lt;/attr&gt;&lt;attr&gt;&lt;attrlabl Sync=&quot;TRUE&quot;&gt;BUILDINGID&lt;/attrlabl&gt;&lt;attalias Sync=&quot;TRUE&quot;&gt;Building ID&lt;/attalias&gt;&lt;attrtype Sync=&quot;TRUE&quot;&gt;String&lt;/attrtype&gt;&lt;attwidth Sync=&quot;TRUE&quot;&gt;60&lt;/attwidth&gt;&lt;atprecis Sync=&quot;TRUE&quot;&gt;0&lt;/atprecis&gt;&lt;attscale Sync=&quot;TRUE&quot;&gt;0&lt;/attscale&gt;&lt;attrdef Sync=&quot;TRUE&quot;&gt;Building ID&lt;/attrdef&gt;&lt;/attr&gt;&lt;attr&gt;&lt;attrlabl Sync=&quot;TRUE&quot;&gt;CALCROT&lt;/attrlabl&gt;&lt;attalias Sync=&quot;TRUE&quot;&gt;Calculated Rotation&lt;/attalias&gt;&lt;attrtype Sync=&quot;TRUE&quot;&gt;Double&lt;/attrtype&gt;&lt;attwidth Sync=&quot;TRUE&quot;&gt;8&lt;/attwidth&gt;&lt;atprecis Sync=&quot;TRUE&quot;&gt;0&lt;/atprecis&gt;&lt;attscale Sync=&quot;TRUE&quot;&gt;0&lt;/attscale&gt;&lt;attrdef Sync=&quot;TRUE&quot;&gt;Calculated Rotation (from world file for building)&lt;/attrdef&gt;&lt;/attr&gt;&lt;attr&gt;&lt;attrlabl Sync=&quot;TRUE&quot;&gt;FACILITY_CODE&lt;/attrlabl&gt;&lt;attalias Sync=&quot;TRUE&quot;&gt;Facility Code&lt;/attalias&gt;&lt;attrtype Sync=&quot;TRUE&quot;&gt;String&lt;/attrtype&gt;&lt;attwidth Sync=&quot;TRUE&quot;&gt;254&lt;/attwidth&gt;&lt;atprecis Sync=&quot;TRUE&quot;&gt;0&lt;/atprecis&gt;&lt;attscale Sync=&quot;TRUE&quot;&gt;0&lt;/attscale&gt;&lt;attrdef Sync=&quot;TRUE&quot;&gt;Facility Code&lt;/attrdef&gt;&lt;/attr&gt;&lt;attr&gt;&lt;attrlabl Sync=&quot;TRUE&quot;&gt;FACLEVEL&lt;/attrlabl&gt;&lt;attalias Sync=&quot;TRUE&quot;&gt;FacLevel&lt;/attalias&gt;&lt;attrtype Sync=&quot;TRUE&quot;&gt;String&lt;/attrtype&gt;&lt;attwidth Sync=&quot;TRUE&quot;&gt;14&lt;/attwidth&gt;&lt;atprecis Sync=&quot;TRUE&quot;&gt;0&lt;/atprecis&gt;&lt;attscale Sync=&quot;TRUE&quot;&gt;0&lt;/attscale&gt;&lt;attrdef Sync=&quot;TRUE&quot;&gt;FacLevel&lt;/attrdef&gt;&lt;/attr&gt;&lt;attr&gt;&lt;attrlabl Sync=&quot;TRUE&quot;&gt;FLOOR&lt;/attrlabl&gt;&lt;attalias Sync=&quot;TRUE&quot;&gt;Floor&lt;/attalias&gt;&lt;attrtype Sync=&quot;TRUE&quot;&gt;String&lt;/attrtype&gt;&lt;attwidth Sync=&quot;TRUE&quot;&gt;20&lt;/attwidth&gt;&lt;atprecis Sync=&quot;TRUE&quot;&gt;0&lt;/atprecis&gt;&lt;attscale Sync=&quot;TRUE&quot;&gt;0&lt;/attscale&gt;&lt;attrdef Sync=&quot;TRUE&quot;&gt;Floor&lt;/attrdef&gt;&lt;/attr&gt;&lt;attr&gt;&lt;attrlabl Sync=&quot;TRUE&quot;&gt;FLOOR_LEVEL&lt;/attrlabl&gt;&lt;attalias Sync=&quot;TRUE&quot;&gt;Floor Level&lt;/attalias&gt;&lt;attrtype Sync=&quot;TRUE&quot;&gt;Integer&lt;/attrtype&gt;&lt;attwidth Sync=&quot;TRUE&quot;&gt;4&lt;/attwidth&gt;&lt;atprecis Sync=&quot;TRUE&quot;&gt;0&lt;/atprecis&gt;&lt;attscale Sync=&quot;TRUE&quot;&gt;0&lt;/attscale&gt;&lt;attrdef Sync=&quot;TRUE&quot;&gt;Floor Level&lt;/attrdef&gt;&lt;/attr&gt;&lt;attr&gt;&lt;attrlabl Sync=&quot;TRUE&quot;&gt;FLOOR_NAME&lt;/attrlabl&gt;&lt;attalias Sync=&quot;TRUE&quot;&gt;Floor Name&lt;/attalias&gt;&lt;attrtype Sync=&quot;TRUE&quot;&gt;String&lt;/attrtype&gt;&lt;attwidth Sync=&quot;TRUE&quot;&gt;254&lt;/attwidth&gt;&lt;atprecis Sync=&quot;TRUE&quot;&gt;0&lt;/atprecis&gt;&lt;attscale Sync=&quot;TRUE&quot;&gt;0&lt;/attscale&gt;&lt;attrdef Sync=&quot;TRUE&quot;&gt;Floor NameFloor Name - oprional for feature classFloor NameFloor Name - oprional for feature class&lt;/attrdef&gt;&lt;/attr&gt;&lt;attr&gt;&lt;attrlabl Sync=&quot;TRUE&quot;&gt;FLOOR_NAME&lt;/attrlabl&gt;&lt;attalias Sync=&quot;TRUE&quot;&gt;Floor Name&lt;/attalias&gt;&lt;attrtype Sync=&quot;TRUE&quot;&gt;String&lt;/attrtype&gt;&lt;attwidth Sync=&quot;TRUE&quot;&gt;60&lt;/attwidth&gt;&lt;atprecis Sync=&quot;TRUE&quot;&gt;0&lt;/atprecis&gt;&lt;attscale Sync=&quot;TRUE&quot;&gt;0&lt;/attscale&gt;&lt;attrdef Sync=&quot;TRUE&quot;&gt;Floor NameFloor Name - oprional for feature classFloor NameFloor Name - oprional for feature class&lt;/attrdef&gt;&lt;/attr&gt;&lt;attr&gt;&lt;attrlabl Sync=&quot;TRUE&quot;&gt;FLOORID&lt;/attrlabl&gt;&lt;attalias Sync=&quot;TRUE&quot;&gt;Floor ID&lt;/attalias&gt;&lt;attrtype Sync=&quot;TRUE&quot;&gt;String&lt;/attrtype&gt;&lt;attwidth Sync=&quot;TRUE&quot;&gt;60&lt;/attwidth&gt;&lt;atprecis Sync=&quot;TRUE&quot;&gt;0&lt;/atprecis&gt;&lt;attscale Sync=&quot;TRUE&quot;&gt;0&lt;/attscale&gt;&lt;attrdef Sync=&quot;TRUE&quot;&gt;Floor ID&lt;/attrdef&gt;&lt;/attr&gt;&lt;attr&gt;&lt;attrlabl Sync=&quot;TRUE&quot;&gt;GlobalID&lt;/attrlabl&gt;&lt;attalias Sync=&quot;TRUE&quot;&gt;GlobalID&lt;/attalias&gt;&lt;attrtype Sync=&quot;TRUE&quot;&gt;GlobalID&lt;/attrtype&gt;&lt;attwidth Sync=&quot;TRUE&quot;&gt;38&lt;/attwidth&gt;&lt;atprecis Sync=&quot;TRUE&quot;&gt;0&lt;/atprecis&gt;&lt;attscale Sync=&quot;TRUE&quot;&gt;0&lt;/attscale&gt;&lt;attrdef Sync=&quot;TRUE&quot;&gt;GlobalID&lt;/attrdef&gt;&lt;/attr&gt;&lt;attr&gt;&lt;attrlabl Sync=&quot;TRUE&quot;&gt;HASFLOORAREAS&lt;/attrlabl&gt;&lt;attalias Sync=&quot;TRUE&quot;&gt;Has Floor&lt;/attalias&gt;&lt;attrtype Sync=&quot;TRUE&quot;&gt;String&lt;/attrtype&gt;&lt;attwidth Sync=&quot;TRUE&quot;&gt;3&lt;/attwidth&gt;&lt;atprecis Sync=&quot;TRUE&quot;&gt;0&lt;/atprecis&gt;&lt;attscale Sync=&quot;TRUE&quot;&gt;0&lt;/attscale&gt;&lt;attrdef Sync=&quot;TRUE&quot;&gt;Has Floor&lt;/attrdef&gt;&lt;/attr&gt;&lt;attr&gt;&lt;attrlabl Sync=&quot;TRUE&quot;&gt;HASFLOORPLANLINES&lt;/attrlabl&gt;&lt;attalias Sync=&quot;TRUE&quot;&gt;Has FloorplanLines&lt;/attalias&gt;&lt;attrtype Sync=&quot;TRUE&quot;&gt;String&lt;/attrtype&gt;&lt;attwidth Sync=&quot;TRUE&quot;&gt;3&lt;/attwidth&gt;&lt;atprecis Sync=&quot;TRUE&quot;&gt;0&lt;/atprecis&gt;&lt;attscale Sync=&quot;TRUE&quot;&gt;0&lt;/attscale&gt;&lt;attrdef Sync=&quot;TRUE&quot;&gt;Has FloorplanLines&lt;/attrdef&gt;&lt;/attr&gt;&lt;attr&gt;&lt;attrlabl Sync=&quot;TRUE&quot;&gt;HASINTERIORSPACES&lt;/attrlabl&gt;&lt;attalias Sync=&quot;TRUE&quot;&gt;Has Interior Spaces&lt;/attalias&gt;&lt;attrtype Sync=&quot;TRUE&quot;&gt;String&lt;/attrtype&gt;&lt;attwidth Sync=&quot;TRUE&quot;&gt;3&lt;/attwidth&gt;&lt;atprecis Sync=&quot;TRUE&quot;&gt;0&lt;/atprecis&gt;&lt;attscale Sync=&quot;TRUE&quot;&gt;0&lt;/attscale&gt;&lt;attrdef Sync=&quot;TRUE&quot;&gt;Has Interior Spaces&lt;/attrdef&gt;&lt;/attr&gt;&lt;attr&gt;&lt;attrlabl Sync=&quot;TRUE&quot;&gt;IN_DATE&lt;/attrlabl&gt;&lt;attalias Sync=&quot;TRUE&quot;&gt;Date loaded&lt;/attalias&gt;&lt;attrtype Sync=&quot;TRUE&quot;&gt;Date&lt;/attrtype&gt;&lt;attwidth Sync=&quot;TRUE&quot;&gt;8&lt;/attwidth&gt;&lt;atprecis Sync=&quot;TRUE&quot;&gt;0&lt;/atprecis&gt;&lt;attscale Sync=&quot;TRUE&quot;&gt;0&lt;/attscale&gt;&lt;attrdef Sync=&quot;TRUE&quot;&gt;Date loaded in database&lt;/attrdef&gt;&lt;/attr&gt;&lt;attr&gt;&lt;attrlabl Sync=&quot;TRUE&quot;&gt;LAST_USER&lt;/attrlabl&gt;&lt;attalias Sync=&quot;TRUE&quot;&gt;Last User&lt;/attalias&gt;&lt;attrtype Sync=&quot;TRUE&quot;&gt;String&lt;/attrtype&gt;&lt;attwidth Sync=&quot;TRUE&quot;&gt;30&lt;/attwidth&gt;&lt;atprecis Sync=&quot;TRUE&quot;&gt;0&lt;/atprecis&gt;&lt;attscale Sync=&quot;TRUE&quot;&gt;0&lt;/attscale&gt;&lt;attrdef Sync=&quot;TRUE&quot;&gt;Last User name&lt;/attrdef&gt;&lt;/attr&gt;&lt;attr&gt;&lt;attrlabl Sync=&quot;TRUE&quot;&gt;MODLANDSCAPE&lt;/attrlabl&gt;&lt;attalias Sync=&quot;TRUE&quot;&gt;Mod Angle Landscape&lt;/attalias&gt;&lt;attrtype Sync=&quot;TRUE&quot;&gt;Double&lt;/attrtype&gt;&lt;attwidth Sync=&quot;TRUE&quot;&gt;8&lt;/attwidth&gt;&lt;atprecis Sync=&quot;TRUE&quot;&gt;0&lt;/atprecis&gt;&lt;attscale Sync=&quot;TRUE&quot;&gt;0&lt;/attscale&gt;&lt;attrdef Sync=&quot;TRUE&quot;&gt;Angle Modifier for Landscape viewing&lt;/attrdef&gt;&lt;/attr&gt;&lt;attr&gt;&lt;attrlabl Sync=&quot;TRUE&quot;&gt;MODPORTRAIT&lt;/attrlabl&gt;&lt;attalias Sync=&quot;TRUE&quot;&gt;Mod Angle Portrait&lt;/attalias&gt;&lt;attrtype Sync=&quot;TRUE&quot;&gt;Double&lt;/attrtype&gt;&lt;attwidth Sync=&quot;TRUE&quot;&gt;8&lt;/attwidth&gt;&lt;atprecis Sync=&quot;TRUE&quot;&gt;0&lt;/atprecis&gt;&lt;attscale Sync=&quot;TRUE&quot;&gt;0&lt;/attscale&gt;&lt;attrdef Sync=&quot;TRUE&quot;&gt;Angle Modifier for Potrait viewing&lt;/attrdef&gt;&lt;/attr&gt;&lt;attr&gt;&lt;attrlabl Sync=&quot;TRUE&quot;&gt;NAME&lt;/attrlabl&gt;&lt;attalias Sync=&quot;TRUE&quot;&gt;Name&lt;/attalias&gt;&lt;attrtype Sync=&quot;TRUE&quot;&gt;String&lt;/attrtype&gt;&lt;attwidth Sync=&quot;TRUE&quot;&gt;254&lt;/attwidth&gt;&lt;atprecis Sync=&quot;TRUE&quot;&gt;0&lt;/atprecis&gt;&lt;attscale Sync=&quot;TRUE&quot;&gt;0&lt;/attscale&gt;&lt;attrdef Sync=&quot;TRUE&quot;&gt;Name&lt;/attrdef&gt;&lt;/attr&gt;&lt;attr&gt;&lt;attrlabl Sync=&quot;TRUE&quot;&gt;NAME_LONG&lt;/attrlabl&gt;&lt;attalias Sync=&quot;TRUE&quot;&gt;Name Long&lt;/attalias&gt;&lt;attrtype Sync=&quot;TRUE&quot;&gt;String&lt;/attrtype&gt;&lt;attwidth Sync=&quot;TRUE&quot;&gt;255&lt;/attwidth&gt;&lt;atprecis Sync=&quot;TRUE&quot;&gt;0&lt;/atprecis&gt;&lt;attscale Sync=&quot;TRUE&quot;&gt;0&lt;/attscale&gt;&lt;attrdef Sync=&quot;TRUE&quot;&gt;Name Long&lt;/attrdef&gt;&lt;/attr&gt;&lt;attr&gt;&lt;attrlabl Sync=&quot;TRUE&quot;&gt;NAME_SHORT&lt;/attrlabl&gt;&lt;attalias Sync=&quot;TRUE&quot;&gt;Name Short&lt;/attalias&gt;&lt;attrtype Sync=&quot;TRUE&quot;&gt;String&lt;/attrtype&gt;&lt;attwidth Sync=&quot;TRUE&quot;&gt;255&lt;/attwidth&gt;&lt;atprecis Sync=&quot;TRUE&quot;&gt;0&lt;/atprecis&gt;&lt;attscale Sync=&quot;TRUE&quot;&gt;0&lt;/attscale&gt;&lt;attrdef Sync=&quot;TRUE&quot;&gt;Name Short&lt;/attrdef&gt;&lt;/attr&gt;&lt;attr&gt;&lt;attrlabl Sync=&quot;TRUE&quot;&gt;SCALE_11X17&lt;/attrlabl&gt;&lt;attalias Sync=&quot;TRUE&quot;&gt;Scale 11X17&lt;/attalias&gt;&lt;attrtype Sync=&quot;TRUE&quot;&gt;Double&lt;/attrtype&gt;&lt;attwidth Sync=&quot;TRUE&quot;&gt;8&lt;/attwidth&gt;&lt;atprecis Sync=&quot;TRUE&quot;&gt;0&lt;/atprecis&gt;&lt;attscale Sync=&quot;TRUE&quot;&gt;0&lt;/attscale&gt;&lt;attrdef Sync=&quot;TRUE&quot;&gt;Scale for 11 X 17 printing&lt;/attrdef&gt;&lt;/attr&gt;&lt;attr&gt;&lt;attrlabl Sync=&quot;TRUE&quot;&gt;SCALE_85X11&lt;/attrlabl&gt;&lt;attalias Sync=&quot;TRUE&quot;&gt;Scale 85X11&lt;/attalias&gt;&lt;attrtype Sync=&quot;TRUE&quot;&gt;Double&lt;/attrtype&gt;&lt;attwidth Sync=&quot;TRUE&quot;&gt;8&lt;/attwidth&gt;&lt;atprecis Sync=&quot;TRUE&quot;&gt;0&lt;/atprecis&gt;&lt;attscale Sync=&quot;TRUE&quot;&gt;0&lt;/attscale&gt;&lt;attrdef Sync=&quot;TRUE&quot;&gt;Scale for 8.5 X 11 printing&lt;/attrdef&gt;&lt;/attr&gt;&lt;attr&gt;&lt;attrlabl Sync=&quot;TRUE&quot;&gt;SENSITIVITY&lt;/attrlabl&gt;&lt;attalias Sync=&quot;TRUE&quot;&gt;Data Sensitivity&lt;/attalias&gt;&lt;attrtype Sync=&quot;TRUE&quot;&gt;String&lt;/attrtype&gt;&lt;attwidth Sync=&quot;TRUE&quot;&gt;20&lt;/attwidth&gt;&lt;atprecis Sync=&quot;TRUE&quot;&gt;0&lt;/atprecis&gt;&lt;attscale Sync=&quot;TRUE&quot;&gt;0&lt;/attscale&gt;&lt;attrdef Sync=&quot;TRUE&quot;&gt;Data Sensitivity&lt;/attrdef&gt;&lt;/attr&gt;&lt;attr&gt;&lt;attrlabl Sync=&quot;TRUE&quot;&gt;SITEID&lt;/attrlabl&gt;&lt;attalias Sync=&quot;TRUE&quot;&gt;Site ID&lt;/attalias&gt;&lt;attrtype Sync=&quot;TRUE&quot;&gt;String&lt;/attrtype&gt;&lt;attwidth Sync=&quot;TRUE&quot;&gt;60&lt;/attwidth&gt;&lt;atprecis Sync=&quot;TRUE&quot;&gt;0&lt;/atprecis&gt;&lt;attscale Sync=&quot;TRUE&quot;&gt;0&lt;/attscale&gt;&lt;attrdef Sync=&quot;TRUE&quot;&gt;Site Identifier&lt;/attrdef&gt;&lt;/attr&gt;&lt;attr&gt;&lt;attrlabl Sync=&quot;TRUE&quot;&gt;WEBMERCROT&lt;/attrlabl&gt;&lt;attalias Sync=&quot;TRUE&quot;&gt;Web Mercator Rotation&lt;/attalias&gt;&lt;attrtype Sync=&quot;TRUE&quot;&gt;Double&lt;/attrtype&gt;&lt;attwidth Sync=&quot;TRUE&quot;&gt;8&lt;/attwidth&gt;&lt;atprecis Sync=&quot;TRUE&quot;&gt;0&lt;/atprecis&gt;&lt;attscale Sync=&quot;TRUE&quot;&gt;0&lt;/attscale&gt;&lt;attrdef Sync=&quot;TRUE&quot;&gt;Web Mercator Rotation&lt;/attrdef&gt;&lt;/attr&gt;&lt;/detailed&gt;&lt;/eainfo&gt;&lt;/metadata&gt;</XmlDoc>
 						</Metadata>
 						<ShapeType>esriGeometryPoint</ShapeType>
 						<LengthFieldName/>
@@ -7567,7 +7292,7 @@
 								<Field xsi:type="esri:Field">
 									<Name>CALCROT</Name>
 									<Type>esriFieldTypeDouble</Type>
-									<IsNullable>false</IsNullable>
+									<IsNullable>true</IsNullable>
 									<Length>8</Length>
 									<Precision>0</Precision>
 									<Scale>0</Scale>
@@ -7787,7 +7512,7 @@
 								<Field xsi:type="esri:Field">
 									<Name>FLOOR_NAME</Name>
 									<Type>esriFieldTypeString</Type>
-									<IsNullable>false</IsNullable>
+									<IsNullable>true</IsNullable>
 									<Length>60</Length>
 									<Precision>0</Precision>
 									<Scale>0</Scale>
@@ -7797,7 +7522,7 @@
 								<Field xsi:type="esri:Field">
 									<Name>BLDG_NAME</Name>
 									<Type>esriFieldTypeString</Type>
-									<IsNullable>false</IsNullable>
+									<IsNullable>true</IsNullable>
 									<Length>60</Length>
 									<Precision>0</Precision>
 									<Scale>0</Scale>
@@ -7944,7 +7669,7 @@
 								<Field xsi:type="esri:Field">
 									<Name>BUILDINGID</Name>
 									<Type>esriFieldTypeString</Type>
-									<IsNullable>false</IsNullable>
+									<IsNullable>true</IsNullable>
 									<Length>60</Length>
 									<Precision>0</Precision>
 									<Scale>0</Scale>
@@ -7953,7 +7678,7 @@
 								<Field xsi:type="esri:Field">
 									<Name>FLOOR</Name>
 									<Type>esriFieldTypeString</Type>
-									<IsNullable>false</IsNullable>
+									<IsNullable>true</IsNullable>
 									<Length>20</Length>
 									<Precision>0</Precision>
 									<Scale>0</Scale>
@@ -8036,7 +7761,7 @@
 								<Field xsi:type="esri:Field">
 									<Name>IN_DATE</Name>
 									<Type>esriFieldTypeDate</Type>
-									<IsNullable>false</IsNullable>
+									<IsNullable>true</IsNullable>
 									<Length>8</Length>
 									<Precision>0</Precision>
 									<Scale>0</Scale>
@@ -8073,7 +7798,7 @@
 								<Field xsi:type="esri:Field">
 									<Name>FLOOR_NAME</Name>
 									<Type>esriFieldTypeString</Type>
-									<IsNullable>false</IsNullable>
+									<IsNullable>true</IsNullable>
 									<Length>60</Length>
 									<Precision>0</Precision>
 									<Scale>0</Scale>
@@ -8083,12 +7808,287 @@
 								<Field xsi:type="esri:Field">
 									<Name>BLDG_NAME</Name>
 									<Type>esriFieldTypeString</Type>
-									<IsNullable>false</IsNullable>
+									<IsNullable>true</IsNullable>
 									<Length>60</Length>
 									<Precision>0</Precision>
 									<Scale>0</Scale>
 									<Required>true</Required>
 									<AliasName>Building Name</AliasName>
+								</Field>
+							</FieldArray>
+						</Fields>
+						<ExtensionProperties xsi:type="esri:PropertySet">
+							<PropertyArray xsi:type="esri:ArrayOfPropertySetProperty"/>
+						</ExtensionProperties>
+						<Versioned>false</Versioned>
+						<CanVersion>false</CanVersion>
+						<HasOID>true</HasOID>
+						<OIDFieldName>OBJECTID</OIDFieldName>
+						<Indexes xsi:type="esri:Indexes">
+							<IndexArray xsi:type="esri:ArrayOfIndex"/>
+						</Indexes>
+						<RelationshipClassNames xsi:type="esri:Names"/>
+						<ModelName/>
+						<HasGlobalID>false</HasGlobalID>
+						<GlobalIDFieldName/>
+						<RasterFieldName/>
+						<ShapeFieldName>SHAPE</ShapeFieldName>
+						<HasSpatialIndex>true</HasSpatialIndex>
+						<CLSID>{52353152-891A-11D0-BEC6-00805F7C4268}</CLSID>
+						<EXTCLSID></EXTCLSID>
+						<Extent xsi:type="esri:EnvelopeN">
+							<!--Extent copied from SpatialReference.xml-->
+							<!--You can change the spatial reference/extent values by editing that file in your GDB XRay/xslt Directory-->
+							<XMin>NaN</XMin>
+							<YMin>NaN</YMin>
+							<XMax>NaN</XMax>
+							<YMax>NaN</YMax>
+							<!--Spatial Reference copied from SpatialReference.xml-->
+							<SpatialReference xsi:type="esri:ProjectedCoordinateSystem">
+								<WKT>PROJCS["WGS_1984_Web_Mercator_Auxiliary_Sphere",GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Mercator_Auxiliary_Sphere"],PARAMETER["False_Easting",0.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",0.0],PARAMETER["Standard_Parallel_1",0.0],PARAMETER["Auxiliary_Sphere_Type",0.0],UNIT["Meter",1.0],AUTHORITY["EPSG",3857]]</WKT>
+								<XOrigin>-20037700</XOrigin>
+								<YOrigin>-30241100</YOrigin>
+								<XYScale>10000</XYScale>
+								<ZOrigin>-100000</ZOrigin>
+								<ZScale>10000</ZScale>
+								<MOrigin>-100000</MOrigin>
+								<MScale>10000</MScale>
+								<XYTolerance>0.001</XYTolerance>
+								<ZTolerance>0.001</ZTolerance>
+								<MTolerance>0.001</MTolerance>
+								<HighPrecision>true</HighPrecision>
+								<WKID>3857</WKID>
+							</SpatialReference>
+						</Extent>
+						<!--Spatial Reference copied from SpatialReference.xml-->
+						<SpatialReference xsi:type="esri:ProjectedCoordinateSystem">
+							<WKT>PROJCS["WGS_1984_Web_Mercator_Auxiliary_Sphere",GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Mercator_Auxiliary_Sphere"],PARAMETER["False_Easting",0.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",0.0],PARAMETER["Standard_Parallel_1",0.0],PARAMETER["Auxiliary_Sphere_Type",0.0],UNIT["Meter",1.0],AUTHORITY["EPSG",3857]]</WKT>
+							<XOrigin>-20037700</XOrigin>
+							<YOrigin>-30241100</YOrigin>
+							<XYScale>10000</XYScale>
+							<ZOrigin>-100000</ZOrigin>
+							<ZScale>10000</ZScale>
+							<MOrigin>-100000</MOrigin>
+							<MScale>10000</MScale>
+							<XYTolerance>0.001</XYTolerance>
+							<ZTolerance>0.001</ZTolerance>
+							<MTolerance>0.001</MTolerance>
+							<HighPrecision>true</HighPrecision>
+							<WKID>3857</WKID>
+						</SpatialReference>
+					</DataElement>
+					<DataElement xsi:type="esri:DEFeatureClass">
+						<CatalogPath>/FD=Floorplan/FC=Floor_Zone</CatalogPath>
+						<Name>Floor_Zone</Name>
+						<DatasetType>esriDTFeatureClass</DatasetType>
+						<MetadataRetrieved>true</MetadataRetrieved>
+						<Metadata xsi:type="esri:XmlPropertySet">
+							<XmlDoc>&lt;metadata xml:lang=&quot;en&quot;&gt;&lt;Esri&gt;&lt;MetaID&gt;&lt;/MetaID&gt;&lt;SyncOnce&gt;TRUE&lt;/SyncOnce&gt;&lt;ArcGISFormat&gt;1.0&lt;/ArcGISFormat&gt;&lt;/Esri&gt;&lt;idinfo&gt;&lt;descript&gt;&lt;abstract&gt;Floor Zone polygons can be used to represent portions of floors such as security zones and leases&lt;/abstract&gt;&lt;purpose&gt;Floor Zones&lt;/purpose&gt;&lt;/descript&gt;&lt;keywords&gt;&lt;theme&gt;&lt;themekt&gt;X-Ray&lt;/themekt&gt;&lt;themekey&gt;&lt;/themekey&gt;&lt;/theme&gt;&lt;/keywords&gt;&lt;accconst&gt;&lt;/accconst&gt;&lt;useconst&gt;&lt;/useconst&gt;&lt;status&gt;&lt;progress&gt;&lt;/progress&gt;&lt;update&gt;&lt;/update&gt;&lt;/status&gt;&lt;spdom&gt;&lt;bounding&gt;&lt;westbc&gt;NaN&lt;/westbc&gt;&lt;eastbc&gt;NaN&lt;/eastbc&gt;&lt;northbc&gt;NaN&lt;/northbc&gt;&lt;southbc&gt;NaN&lt;/southbc&gt;&lt;/bounding&gt;&lt;/spdom&gt;&lt;/idinfo&gt;&lt;eainfo&gt;&lt;detailed Name=&quot;&quot;&gt;&lt;attr&gt;&lt;attrlabl Sync=&quot;TRUE&quot;&gt;OBJECTID&lt;/attrlabl&gt;&lt;attalias Sync=&quot;TRUE&quot;&gt;OBJECTID&lt;/attalias&gt;&lt;attrtype Sync=&quot;TRUE&quot;&gt;OID&lt;/attrtype&gt;&lt;attwidth Sync=&quot;TRUE&quot;&gt;4&lt;/attwidth&gt;&lt;atprecis Sync=&quot;TRUE&quot;&gt;0&lt;/atprecis&gt;&lt;attscale Sync=&quot;TRUE&quot;&gt;0&lt;/attscale&gt;&lt;attrdef Sync=&quot;TRUE&quot;&gt;Internal feature number.&lt;/attrdef&gt;&lt;attrdefs Sync=&quot;TRUE&quot;&gt;Esri&lt;/attrdefs&gt;&lt;attrdomv&gt;&lt;udom Sync=&quot;TRUE&quot;&gt;Sequential unique whole numbers that are automatically generated.&lt;/udom&gt;&lt;/attrdomv&gt;&lt;/attr&gt;&lt;attr&gt;&lt;attrlabl Sync=&quot;TRUE&quot;&gt;SHAPE&lt;/attrlabl&gt;&lt;attalias Sync=&quot;TRUE&quot;&gt;SHAPE&lt;/attalias&gt;&lt;attrtype Sync=&quot;TRUE&quot;&gt;Geometry&lt;/attrtype&gt;&lt;attwidth Sync=&quot;TRUE&quot;&gt;0&lt;/attwidth&gt;&lt;atprecis Sync=&quot;TRUE&quot;&gt;0&lt;/atprecis&gt;&lt;attscale Sync=&quot;TRUE&quot;&gt;0&lt;/attscale&gt;&lt;attrdef Sync=&quot;TRUE&quot;&gt;Feature geometry.&lt;/attrdef&gt;&lt;attrdefs Sync=&quot;TRUE&quot;&gt;Esri&lt;/attrdefs&gt;&lt;attrdomv&gt;&lt;udom Sync=&quot;TRUE&quot;&gt;Coordinates defining the features.&lt;/udom&gt;&lt;/attrdomv&gt;&lt;/attr&gt;&lt;attr&gt;&lt;attrlabl Sync=&quot;TRUE&quot;&gt;BUILDINGID&lt;/attrlabl&gt;&lt;attalias Sync=&quot;TRUE&quot;&gt;Building ID&lt;/attalias&gt;&lt;attrtype Sync=&quot;TRUE&quot;&gt;String&lt;/attrtype&gt;&lt;attwidth Sync=&quot;TRUE&quot;&gt;60&lt;/attwidth&gt;&lt;atprecis Sync=&quot;TRUE&quot;&gt;0&lt;/atprecis&gt;&lt;attscale Sync=&quot;TRUE&quot;&gt;0&lt;/attscale&gt;&lt;attrdef Sync=&quot;TRUE&quot;&gt;Building ID&lt;/attrdef&gt;&lt;/attr&gt;&lt;attr&gt;&lt;attrlabl Sync=&quot;TRUE&quot;&gt;FLOOR&lt;/attrlabl&gt;&lt;attalias Sync=&quot;TRUE&quot;&gt;Floor&lt;/attalias&gt;&lt;attrtype Sync=&quot;TRUE&quot;&gt;String&lt;/attrtype&gt;&lt;attwidth Sync=&quot;TRUE&quot;&gt;20&lt;/attwidth&gt;&lt;atprecis Sync=&quot;TRUE&quot;&gt;0&lt;/atprecis&gt;&lt;attscale Sync=&quot;TRUE&quot;&gt;0&lt;/attscale&gt;&lt;attrdef Sync=&quot;TRUE&quot;&gt;Floor&lt;/attrdef&gt;&lt;/attr&gt;&lt;attr&gt;&lt;attrlabl Sync=&quot;TRUE&quot;&gt;FLOORID&lt;/attrlabl&gt;&lt;attalias Sync=&quot;TRUE&quot;&gt;Floor ID&lt;/attalias&gt;&lt;attrtype Sync=&quot;TRUE&quot;&gt;String&lt;/attrtype&gt;&lt;attwidth Sync=&quot;TRUE&quot;&gt;60&lt;/attwidth&gt;&lt;atprecis Sync=&quot;TRUE&quot;&gt;0&lt;/atprecis&gt;&lt;attscale Sync=&quot;TRUE&quot;&gt;0&lt;/attscale&gt;&lt;attrdef Sync=&quot;TRUE&quot;&gt;Floor ID&lt;/attrdef&gt;&lt;/attr&gt;&lt;attr&gt;&lt;attrlabl Sync=&quot;TRUE&quot;&gt;GlobalID&lt;/attrlabl&gt;&lt;attalias Sync=&quot;TRUE&quot;&gt;GlobalID&lt;/attalias&gt;&lt;attrtype Sync=&quot;TRUE&quot;&gt;GlobalID&lt;/attrtype&gt;&lt;attwidth Sync=&quot;TRUE&quot;&gt;38&lt;/attwidth&gt;&lt;atprecis Sync=&quot;TRUE&quot;&gt;0&lt;/atprecis&gt;&lt;attscale Sync=&quot;TRUE&quot;&gt;0&lt;/attscale&gt;&lt;attrdef Sync=&quot;TRUE&quot;&gt;GlobalID&lt;/attrdef&gt;&lt;/attr&gt;&lt;attr&gt;&lt;attrlabl Sync=&quot;TRUE&quot;&gt;IN_DATE&lt;/attrlabl&gt;&lt;attalias Sync=&quot;TRUE&quot;&gt;Date loaded&lt;/attalias&gt;&lt;attrtype Sync=&quot;TRUE&quot;&gt;Date&lt;/attrtype&gt;&lt;attwidth Sync=&quot;TRUE&quot;&gt;8&lt;/attwidth&gt;&lt;atprecis Sync=&quot;TRUE&quot;&gt;0&lt;/atprecis&gt;&lt;attscale Sync=&quot;TRUE&quot;&gt;0&lt;/attscale&gt;&lt;attrdef Sync=&quot;TRUE&quot;&gt;Date loaded in database&lt;/attrdef&gt;&lt;/attr&gt;&lt;attr&gt;&lt;attrlabl Sync=&quot;TRUE&quot;&gt;LAST_USER&lt;/attrlabl&gt;&lt;attalias Sync=&quot;TRUE&quot;&gt;Last User&lt;/attalias&gt;&lt;attrtype Sync=&quot;TRUE&quot;&gt;String&lt;/attrtype&gt;&lt;attwidth Sync=&quot;TRUE&quot;&gt;50&lt;/attwidth&gt;&lt;atprecis Sync=&quot;TRUE&quot;&gt;0&lt;/atprecis&gt;&lt;attscale Sync=&quot;TRUE&quot;&gt;0&lt;/attscale&gt;&lt;attrdef Sync=&quot;TRUE&quot;&gt;Last User name&lt;/attrdef&gt;&lt;/attr&gt;&lt;attr&gt;&lt;attrlabl Sync=&quot;TRUE&quot;&gt;SENSITIVITY&lt;/attrlabl&gt;&lt;attalias Sync=&quot;TRUE&quot;&gt;Data Sensitivity&lt;/attalias&gt;&lt;attrtype Sync=&quot;TRUE&quot;&gt;String&lt;/attrtype&gt;&lt;attwidth Sync=&quot;TRUE&quot;&gt;20&lt;/attwidth&gt;&lt;atprecis Sync=&quot;TRUE&quot;&gt;0&lt;/atprecis&gt;&lt;attscale Sync=&quot;TRUE&quot;&gt;0&lt;/attscale&gt;&lt;attrdef Sync=&quot;TRUE&quot;&gt;Data Sensitivity&lt;/attrdef&gt;&lt;/attr&gt;&lt;attr&gt;&lt;attrlabl Sync=&quot;TRUE&quot;&gt;SITEID&lt;/attrlabl&gt;&lt;attalias Sync=&quot;TRUE&quot;&gt;Site ID&lt;/attalias&gt;&lt;attrtype Sync=&quot;TRUE&quot;&gt;String&lt;/attrtype&gt;&lt;attwidth Sync=&quot;TRUE&quot;&gt;60&lt;/attwidth&gt;&lt;atprecis Sync=&quot;TRUE&quot;&gt;0&lt;/atprecis&gt;&lt;attscale Sync=&quot;TRUE&quot;&gt;0&lt;/attscale&gt;&lt;attrdef Sync=&quot;TRUE&quot;&gt;Site Identifier&lt;/attrdef&gt;&lt;/attr&gt;&lt;attr&gt;&lt;attrlabl Sync=&quot;TRUE&quot;&gt;SOURCEDWG&lt;/attrlabl&gt;&lt;attalias Sync=&quot;TRUE&quot;&gt;Source Drawing&lt;/attalias&gt;&lt;attrtype Sync=&quot;TRUE&quot;&gt;String&lt;/attrtype&gt;&lt;attwidth Sync=&quot;TRUE&quot;&gt;60&lt;/attwidth&gt;&lt;atprecis Sync=&quot;TRUE&quot;&gt;0&lt;/atprecis&gt;&lt;attscale Sync=&quot;TRUE&quot;&gt;0&lt;/attscale&gt;&lt;attrdef Sync=&quot;TRUE&quot;&gt;Source Drawing&lt;/attrdef&gt;&lt;/attr&gt;&lt;attr&gt;&lt;attrlabl Sync=&quot;TRUE&quot;&gt;ZONEID&lt;/attrlabl&gt;&lt;attalias Sync=&quot;TRUE&quot;&gt;Schematic Elevation&lt;/attalias&gt;&lt;attrtype Sync=&quot;TRUE&quot;&gt;String&lt;/attrtype&gt;&lt;attwidth Sync=&quot;TRUE&quot;&gt;60&lt;/attwidth&gt;&lt;atprecis Sync=&quot;TRUE&quot;&gt;0&lt;/atprecis&gt;&lt;attscale Sync=&quot;TRUE&quot;&gt;0&lt;/attscale&gt;&lt;attrdef Sync=&quot;TRUE&quot;&gt;Schematic Elevation&lt;/attrdef&gt;&lt;/attr&gt;&lt;attr&gt;&lt;attrlabl Sync=&quot;TRUE&quot;&gt;ZONENAME&lt;/attrlabl&gt;&lt;attalias Sync=&quot;TRUE&quot;&gt;Zone Name&lt;/attalias&gt;&lt;attrtype Sync=&quot;TRUE&quot;&gt;String&lt;/attrtype&gt;&lt;attwidth Sync=&quot;TRUE&quot;&gt;100&lt;/attwidth&gt;&lt;atprecis Sync=&quot;TRUE&quot;&gt;0&lt;/atprecis&gt;&lt;attscale Sync=&quot;TRUE&quot;&gt;0&lt;/attscale&gt;&lt;attrdef Sync=&quot;TRUE&quot;&gt;Name of the Zone&lt;/attrdef&gt;&lt;/attr&gt;&lt;attr&gt;&lt;attrlabl Sync=&quot;TRUE&quot;&gt;ZONETYPE&lt;/attrlabl&gt;&lt;attalias Sync=&quot;TRUE&quot;&gt;Zone Type&lt;/attalias&gt;&lt;attrtype Sync=&quot;TRUE&quot;&gt;String&lt;/attrtype&gt;&lt;attwidth Sync=&quot;TRUE&quot;&gt;100&lt;/attwidth&gt;&lt;atprecis Sync=&quot;TRUE&quot;&gt;0&lt;/atprecis&gt;&lt;attscale Sync=&quot;TRUE&quot;&gt;0&lt;/attscale&gt;&lt;attrdef Sync=&quot;TRUE&quot;&gt;Type of Zone - organization-defined&lt;/attrdef&gt;&lt;/attr&gt;&lt;/detailed&gt;&lt;/eainfo&gt;&lt;/metadata&gt;</XmlDoc>
+						</Metadata>
+						<ShapeType>esriGeometryPolygon</ShapeType>
+						<LengthFieldName>SHAPE_LENGTH</LengthFieldName>
+						<AreaFieldName>SHAPE_AREA</AreaFieldName>
+						<FeatureType>esriFTSimple</FeatureType>
+						<AliasName>Floor Zones</AliasName>
+						<HasM>false</HasM>
+						<HasZ>false</HasZ>
+						<DSID>105</DSID>
+						<Fields xsi:type="esri:Fields">
+							<FieldArray xsi:type="esri:ArrayOfField">
+								<Field xsi:type="esri:Field">
+									<Name>OBJECTID</Name>
+									<Type>esriFieldTypeOID</Type>
+									<IsNullable>false</IsNullable>
+									<Length>4</Length>
+									<Precision>0</Precision>
+									<Scale>0</Scale>
+									<Required>true</Required>
+									<Editable>false</Editable>
+									<DomainFixed>true</DomainFixed>
+									<AliasName>OBJECTID</AliasName>
+									<ModelName>System-maintained ObjectID</ModelName>
+								</Field>
+								<Field xsi:type="esri:Field">
+									<Name>SHAPE</Name>
+									<Type>esriFieldTypeGeometry</Type>
+									<IsNullable>true</IsNullable>
+									<Length>0</Length>
+									<Precision>0</Precision>
+									<Scale>0</Scale>
+									<Required>true</Required>
+									<DomainFixed>true</DomainFixed>
+									<GeometryDef xsi:type="esri:GeometryDef">
+										<AvgNumPoints>0</AvgNumPoints>
+										<GeometryType>esriGeometryPolygon</GeometryType>
+										<HasM>false</HasM>
+										<HasZ>false</HasZ>
+										<!--Spatial Reference copied from SpatialReference.xml-->
+										<SpatialReference xsi:type="esri:ProjectedCoordinateSystem">
+											<WKT>PROJCS["WGS_1984_Web_Mercator_Auxiliary_Sphere",GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Mercator_Auxiliary_Sphere"],PARAMETER["False_Easting",0.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",0.0],PARAMETER["Standard_Parallel_1",0.0],PARAMETER["Auxiliary_Sphere_Type",0.0],UNIT["Meter",1.0],AUTHORITY["EPSG",3857]]</WKT>
+											<XOrigin>-20037700</XOrigin>
+											<YOrigin>-30241100</YOrigin>
+											<XYScale>10000</XYScale>
+											<ZOrigin>-100000</ZOrigin>
+											<ZScale>10000</ZScale>
+											<MOrigin>-100000</MOrigin>
+											<MScale>10000</MScale>
+											<XYTolerance>0.001</XYTolerance>
+											<ZTolerance>0.001</ZTolerance>
+											<MTolerance>0.001</MTolerance>
+											<HighPrecision>true</HighPrecision>
+											<WKID>3857</WKID>
+										</SpatialReference>
+										<GridSize0>0</GridSize0>
+									</GeometryDef>
+									<AliasName>SHAPE</AliasName>
+									<ModelName>System-maintained Geometry for a feature</ModelName>
+								</Field>
+								<Field xsi:type="esri:Field">
+									<Name>SITEID</Name>
+									<Type>esriFieldTypeString</Type>
+									<IsNullable>true</IsNullable>
+									<Length>60</Length>
+									<Precision>0</Precision>
+									<Scale>0</Scale>
+									<AliasName>Site ID</AliasName>
+								</Field>
+								<Field xsi:type="esri:Field">
+									<Name>BUILDINGID</Name>
+									<Type>esriFieldTypeString</Type>
+									<IsNullable>true</IsNullable>
+									<Length>60</Length>
+									<Precision>0</Precision>
+									<Scale>0</Scale>
+									<AliasName>Building ID</AliasName>
+								</Field>
+								<Field xsi:type="esri:Field">
+									<Name>FLOOR</Name>
+									<Type>esriFieldTypeString</Type>
+									<IsNullable>true</IsNullable>
+									<Length>20</Length>
+									<Precision>0</Precision>
+									<Scale>0</Scale>
+									<AliasName>Floor</AliasName>
+								</Field>
+								<Field xsi:type="esri:Field">
+									<Name>FLOORID</Name>
+									<Type>esriFieldTypeString</Type>
+									<IsNullable>true</IsNullable>
+									<Length>60</Length>
+									<Precision>0</Precision>
+									<Scale>0</Scale>
+									<AliasName>Floor ID</AliasName>
+								</Field>
+								<Field xsi:type="esri:Field">
+									<Name>ZONEID</Name>
+									<Type>esriFieldTypeString</Type>
+									<IsNullable>true</IsNullable>
+									<Length>60</Length>
+									<Precision>0</Precision>
+									<Scale>0</Scale>
+									<AliasName>Schematic Elevation</AliasName>
+								</Field>
+								<Field xsi:type="esri:Field">
+									<Name>ZONENAME</Name>
+									<Type>esriFieldTypeString</Type>
+									<IsNullable>true</IsNullable>
+									<Length>100</Length>
+									<Precision>0</Precision>
+									<Scale>0</Scale>
+									<AliasName>Zone Name</AliasName>
+								</Field>
+								<Field xsi:type="esri:Field">
+									<Name>ZONETYPE</Name>
+									<Type>esriFieldTypeString</Type>
+									<IsNullable>true</IsNullable>
+									<Length>100</Length>
+									<Precision>0</Precision>
+									<Scale>0</Scale>
+									<AliasName>Zone Type</AliasName>
+								</Field>
+								<Field xsi:type="esri:Field">
+									<Name>SENSITIVITY</Name>
+									<Type>esriFieldTypeString</Type>
+									<IsNullable>true</IsNullable>
+									<Length>20</Length>
+									<Precision>0</Precision>
+									<Scale>0</Scale>
+									<AliasName>Data Sensitivity</AliasName>
+									<!--Domain Name : Sensitivity-->
+									<Domain xsi:type="esri:CodedValueDomain">
+										<DomainName>Sensitivity</DomainName>
+										<FieldType>esriFieldTypeString</FieldType>
+										<MergePolicy>esriMPTDefaultValue</MergePolicy>
+										<SplitPolicy>esriSPTDuplicate</SplitPolicy>
+										<Description>Sensitivity of buildings, floors, and spaces for access and security needs</Description>
+										<CodedValues xsi:type="esri:ArrayOfCodedValue">
+											<CodedValue xsi:type="esri:CodedValue">
+												<Name>Public Access</Name>
+												<Code xsi:type="xs:string">Public Access</Code>
+											</CodedValue>
+											<CodedValue xsi:type="esri:CodedValue">
+												<Name>Employee Access</Name>
+												<Code xsi:type="xs:string">Employee Access</Code>
+											</CodedValue>
+											<CodedValue xsi:type="esri:CodedValue">
+												<Name>Restricted</Name>
+												<Code xsi:type="xs:string">Restricted</Code>
+											</CodedValue>
+											<CodedValue xsi:type="esri:CodedValue">
+												<Name>Secure</Name>
+												<Code xsi:type="xs:string">Secure</Code>
+											</CodedValue>
+											<CodedValue xsi:type="esri:CodedValue">
+												<Name>Hidden</Name>
+												<Code xsi:type="xs:string">Hidden</Code>
+											</CodedValue>
+											<CodedValue xsi:type="esri:CodedValue">
+												<Name>Other</Name>
+												<Code xsi:type="xs:string">Other</Code>
+											</CodedValue>
+											<CodedValue xsi:type="esri:CodedValue">
+												<Name>Unknown</Name>
+												<Code xsi:type="xs:string">Unknown</Code>
+											</CodedValue>
+										</CodedValues>
+									</Domain>
+								</Field>
+								<Field xsi:type="esri:Field">
+									<Name>IN_DATE</Name>
+									<Type>esriFieldTypeDate</Type>
+									<IsNullable>true</IsNullable>
+									<Length>8</Length>
+									<Precision>0</Precision>
+									<Scale>0</Scale>
+									<AliasName>Date loaded</AliasName>
+								</Field>
+								<Field xsi:type="esri:Field">
+									<Name>LAST_USER</Name>
+									<Type>esriFieldTypeString</Type>
+									<IsNullable>true</IsNullable>
+									<Length>50</Length>
+									<Precision>0</Precision>
+									<Scale>0</Scale>
+									<AliasName>Last User</AliasName>
+								</Field>
+								<Field xsi:type="esri:Field">
+									<Name>SOURCEDWG</Name>
+									<Type>esriFieldTypeString</Type>
+									<IsNullable>true</IsNullable>
+									<Length>60</Length>
+									<Precision>0</Precision>
+									<Scale>0</Scale>
+									<AliasName>Source Drawing</AliasName>
+								</Field>
+								<Field xsi:type="esri:Field">
+									<Name>GlobalID</Name>
+									<Type>esriFieldTypeGlobalID</Type>
+									<IsNullable>false</IsNullable>
+									<Length>38</Length>
+									<Precision>0</Precision>
+									<Scale>0</Scale>
+									<Required>true</Required>
+									<AliasName>GlobalID</AliasName>
 								</Field>
 							</FieldArray>
 						</Fields>
@@ -8230,7 +8230,7 @@
 								<Field xsi:type="esri:Field">
 									<Name>BUILDINGID</Name>
 									<Type>esriFieldTypeString</Type>
-									<IsNullable>false</IsNullable>
+									<IsNullable>true</IsNullable>
 									<Length>60</Length>
 									<Precision>0</Precision>
 									<Scale>0</Scale>
@@ -8239,7 +8239,7 @@
 								<Field xsi:type="esri:Field">
 									<Name>FLOOR</Name>
 									<Type>esriFieldTypeString</Type>
-									<IsNullable>false</IsNullable>
+									<IsNullable>true</IsNullable>
 									<Length>20</Length>
 									<Precision>0</Precision>
 									<Scale>0</Scale>
@@ -8257,7 +8257,7 @@
 								<Field xsi:type="esri:Field">
 									<Name>SOURCELAYER</Name>
 									<Type>esriFieldTypeString</Type>
-									<IsNullable>false</IsNullable>
+									<IsNullable>true</IsNullable>
 									<Length>24</Length>
 									<Precision>0</Precision>
 									<Scale>0</Scale>
@@ -8313,7 +8313,7 @@
 								<Field xsi:type="esri:Field">
 									<Name>IN_DATE</Name>
 									<Type>esriFieldTypeDate</Type>
-									<IsNullable>false</IsNullable>
+									<IsNullable>true</IsNullable>
 									<Length>8</Length>
 									<Precision>0</Precision>
 									<Scale>0</Scale>
@@ -8570,7 +8570,7 @@
 								<Field xsi:type="esri:Field">
 									<Name>IN_DATE</Name>
 									<Type>esriFieldTypeDate</Type>
-									<IsNullable>false</IsNullable>
+									<IsNullable>true</IsNullable>
 									<Length>8</Length>
 									<Precision>0</Precision>
 									<Scale>0</Scale>
@@ -8735,7 +8735,7 @@
 								<Field xsi:type="esri:Field">
 									<Name>BUILDINGID</Name>
 									<Type>esriFieldTypeString</Type>
-									<IsNullable>false</IsNullable>
+									<IsNullable>true</IsNullable>
 									<Length>60</Length>
 									<Precision>0</Precision>
 									<Scale>0</Scale>
@@ -8744,7 +8744,7 @@
 								<Field xsi:type="esri:Field">
 									<Name>FLOOR</Name>
 									<Type>esriFieldTypeString</Type>
-									<IsNullable>false</IsNullable>
+									<IsNullable>true</IsNullable>
 									<Length>20</Length>
 									<Precision>0</Precision>
 									<Scale>0</Scale>
@@ -8762,7 +8762,7 @@
 								<Field xsi:type="esri:Field">
 									<Name>ROOM</Name>
 									<Type>esriFieldTypeString</Type>
-									<IsNullable>false</IsNullable>
+									<IsNullable>true</IsNullable>
 									<Length>30</Length>
 									<Precision>0</Precision>
 									<Scale>0</Scale>
@@ -8771,7 +8771,7 @@
 								<Field xsi:type="esri:Field">
 									<Name>SPACEID</Name>
 									<Type>esriFieldTypeString</Type>
-									<IsNullable>false</IsNullable>
+									<IsNullable>true</IsNullable>
 									<Length>60</Length>
 									<Precision>0</Precision>
 									<Scale>0</Scale>
@@ -8780,7 +8780,7 @@
 								<Field xsi:type="esri:Field">
 									<Name>SPACECLASS</Name>
 									<Type>esriFieldTypeString</Type>
-									<IsNullable>false</IsNullable>
+									<IsNullable>true</IsNullable>
 									<Length>60</Length>
 									<Precision>0</Precision>
 									<Scale>0</Scale>
@@ -8845,7 +8845,7 @@
 								<Field xsi:type="esri:Field">
 									<Name>IN_DATE</Name>
 									<Type>esriFieldTypeDate</Type>
-									<IsNullable>false</IsNullable>
+									<IsNullable>true</IsNullable>
 									<Length>8</Length>
 									<Precision>0</Precision>
 									<Scale>0</Scale>
@@ -8891,7 +8891,7 @@
 								<Field xsi:type="esri:Field">
 									<Name>FLOOR_NAME</Name>
 									<Type>esriFieldTypeString</Type>
-									<IsNullable>false</IsNullable>
+									<IsNullable>true</IsNullable>
 									<Length>60</Length>
 									<Precision>0</Precision>
 									<Scale>0</Scale>
@@ -8901,7 +8901,7 @@
 								<Field xsi:type="esri:Field">
 									<Name>BLDG_NAME</Name>
 									<Type>esriFieldTypeString</Type>
-									<IsNullable>false</IsNullable>
+									<IsNullable>true</IsNullable>
 									<Length>60</Length>
 									<Precision>0</Precision>
 									<Scale>0</Scale>
@@ -9048,7 +9048,7 @@
 								<Field xsi:type="esri:Field">
 									<Name>BUILDINGID</Name>
 									<Type>esriFieldTypeString</Type>
-									<IsNullable>false</IsNullable>
+									<IsNullable>true</IsNullable>
 									<Length>60</Length>
 									<Precision>0</Precision>
 									<Scale>0</Scale>
@@ -9057,7 +9057,7 @@
 								<Field xsi:type="esri:Field">
 									<Name>FLOOR</Name>
 									<Type>esriFieldTypeString</Type>
-									<IsNullable>false</IsNullable>
+									<IsNullable>true</IsNullable>
 									<Length>20</Length>
 									<Precision>0</Precision>
 									<Scale>0</Scale>
@@ -9075,7 +9075,7 @@
 								<Field xsi:type="esri:Field">
 									<Name>ROOM</Name>
 									<Type>esriFieldTypeString</Type>
-									<IsNullable>false</IsNullable>
+									<IsNullable>true</IsNullable>
 									<Length>30</Length>
 									<Precision>0</Precision>
 									<Scale>0</Scale>
@@ -9084,7 +9084,7 @@
 								<Field xsi:type="esri:Field">
 									<Name>SPACEID</Name>
 									<Type>esriFieldTypeString</Type>
-									<IsNullable>false</IsNullable>
+									<IsNullable>true</IsNullable>
 									<Length>60</Length>
 									<Precision>0</Precision>
 									<Scale>0</Scale>
@@ -9140,7 +9140,7 @@
 								<Field xsi:type="esri:Field">
 									<Name>IN_DATE</Name>
 									<Type>esriFieldTypeDate</Type>
-									<IsNullable>false</IsNullable>
+									<IsNullable>true</IsNullable>
 									<Length>8</Length>
 									<Precision>0</Precision>
 									<Scale>0</Scale>
@@ -9177,7 +9177,7 @@
 								<Field xsi:type="esri:Field">
 									<Name>FLOOR_NAME</Name>
 									<Type>esriFieldTypeString</Type>
-									<IsNullable>false</IsNullable>
+									<IsNullable>true</IsNullable>
 									<Length>60</Length>
 									<Precision>0</Precision>
 									<Scale>0</Scale>
@@ -9187,7 +9187,7 @@
 								<Field xsi:type="esri:Field">
 									<Name>BLDG_NAME</Name>
 									<Type>esriFieldTypeString</Type>
-									<IsNullable>false</IsNullable>
+									<IsNullable>true</IsNullable>
 									<Length>60</Length>
 									<Precision>0</Precision>
 									<Scale>0</Scale>
@@ -9334,7 +9334,7 @@
 								<Field xsi:type="esri:Field">
 									<Name>BUILDINGID</Name>
 									<Type>esriFieldTypeString</Type>
-									<IsNullable>false</IsNullable>
+									<IsNullable>true</IsNullable>
 									<Length>60</Length>
 									<Precision>0</Precision>
 									<Scale>0</Scale>
@@ -9343,7 +9343,7 @@
 								<Field xsi:type="esri:Field">
 									<Name>FLOOR</Name>
 									<Type>esriFieldTypeString</Type>
-									<IsNullable>false</IsNullable>
+									<IsNullable>true</IsNullable>
 									<Length>20</Length>
 									<Precision>0</Precision>
 									<Scale>0</Scale>
@@ -9361,7 +9361,7 @@
 								<Field xsi:type="esri:Field">
 									<Name>ROOM</Name>
 									<Type>esriFieldTypeString</Type>
-									<IsNullable>false</IsNullable>
+									<IsNullable>true</IsNullable>
 									<Length>20</Length>
 									<Precision>0</Precision>
 									<Scale>0</Scale>
@@ -9370,7 +9370,7 @@
 								<Field xsi:type="esri:Field">
 									<Name>SPACEID</Name>
 									<Type>esriFieldTypeString</Type>
-									<IsNullable>false</IsNullable>
+									<IsNullable>true</IsNullable>
 									<Length>60</Length>
 									<Precision>0</Precision>
 									<Scale>0</Scale>
@@ -9426,7 +9426,7 @@
 								<Field xsi:type="esri:Field">
 									<Name>IN_DATE</Name>
 									<Type>esriFieldTypeDate</Type>
-									<IsNullable>false</IsNullable>
+									<IsNullable>true</IsNullable>
 									<Length>8</Length>
 									<Precision>0</Precision>
 									<Scale>0</Scale>
@@ -9680,7 +9680,7 @@
 						<Field xsi:type="esri:Field">
 							<Name>BUILDINGID</Name>
 							<Type>esriFieldTypeString</Type>
-							<IsNullable>false</IsNullable>
+							<IsNullable>true</IsNullable>
 							<Length>60</Length>
 							<Precision>0</Precision>
 							<Scale>0</Scale>
@@ -9745,7 +9745,7 @@
 						<Field xsi:type="esri:Field">
 							<Name>RASTERDATE</Name>
 							<Type>esriFieldTypeDate</Type>
-							<IsNullable>false</IsNullable>
+							<IsNullable>true</IsNullable>
 							<Length>8</Length>
 							<Precision>0</Precision>
 							<Scale>0</Scale>
@@ -9754,7 +9754,7 @@
 						<Field xsi:type="esri:Field">
 							<Name>IN_DATE</Name>
 							<Type>esriFieldTypeDate</Type>
-							<IsNullable>false</IsNullable>
+							<IsNullable>true</IsNullable>
 							<Length>8</Length>
 							<Precision>0</Precision>
 							<Scale>0</Scale>
@@ -9985,7 +9985,7 @@
 						<Field xsi:type="esri:Field">
 							<Name>SPACEID</Name>
 							<Type>esriFieldTypeString</Type>
-							<IsNullable>false</IsNullable>
+							<IsNullable>true</IsNullable>
 							<Length>60</Length>
 							<Precision>0</Precision>
 							<Scale>0</Scale>
@@ -9994,7 +9994,7 @@
 						<Field xsi:type="esri:Field">
 							<Name>SPACECLASS</Name>
 							<Type>esriFieldTypeString</Type>
-							<IsNullable>false</IsNullable>
+							<IsNullable>true</IsNullable>
 							<Length>60</Length>
 							<Precision>0</Precision>
 							<Scale>0</Scale>
